@@ -1,0 +1,84 @@
+---
+Title: Global LMI overview
+Source: https://kb.lightcast.io/en/articles/7199115-global-lmi-overview
+Content:
+Global LMI overview | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+All Collections
+Using Global Analyst
+Global LMI
+Global LMI overview
+Global LMI overview
+ 
+Updated over 2 years ago
+Governmental data to help guide analysis
+Lightcast Labor Market Information (LMI) refers to governmental data collected and collated by Lightcast. This data is presented to help customers make informed plans, choices, and analysis founded on governmentally sourced data points.
+ 
+Global Labor Market Intelligence data is generally speaking the number of workers for a given global market per global occupation. For a lot of countries, very high level demographic data is also available. 
+ 
+Once the data is collected, it is often classified according to a standard classification system such as the 
+International Standard Classification of Occupations (ISCO)
+. This allows for easier comparison and analysis of the data across different countries and regions.
+ 
+Using LMI can be beneficial in many ways. Businesses can use LMI to inform their investment decisions and workforce planning, while job seekers can use it to identify job opportunities and plan their career paths. Governments and policymakers can use LMI to inform their workforce development policies and programs.
+ 
+LMI is a vital source of information for understanding the labor market and making informed decisions. Governments globally collect and present LMI from various sources, and Lightcast makes it easy to understand the data.
+ 
+Global Labor Market Information Supported Countries
+ 
+AT-Austria Methodology
+AU-Australia Methodology
+BE-Belgium Methodology
+BG-Bulgaria Methodology
+BR-Brazil Methodology
+CA - Canada Methodology
+CH-Switzerland Methodology
+CR-Costa Rica Methodology
+CY-Cyprus Methodology
+CZ-Czechia (Czech Republic) Methodology
+DE-Germany Methodology
+DK-Denmark Methodology
+EE-Estonia Methodology
+EL-Greece Methodology
+ES-Spain Methodology
+FI-Finland Methodology
+FR-France Methodology
+GB - Great Britain Methodology
+HK-Hong Kong Methodology
+HR-Croatia Methodology
+HU-Hungary Methodology
+IE-Ireland Methodology
+IL-Israel Methodology
+IN-India Methodology
+IS-Iceland Methodology
+LT-Lithuania Methodology
+LU-Luxembourg Methodology
+LV-Latvia Methodology
+MT-Malta Methodology
+MX-Mexico Methodology
+NL-The Netherlands Methodology
+NO-Norway Methodology
+PH-Philippines Methodology
+PL-Poland Methodology
+RO-Romania Methodology
+SE-Sweden Methodology
+SG-Singapore Methodology
+SI-Slovenia Methodology
+SK-Slovakia Methodology
+TR-Turkey Methodology
+US - United States Methodology
+Related Articles
+Lightcast Data: Basic Overview
+Global Data 101
+Global Postings Data Overview
+DE-Germany Methodology
+Global Data Release Notes
+Did this answer your question?
+😞
+😐
+😃

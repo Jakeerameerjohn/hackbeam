@@ -1,0 +1,43 @@
+---
+Title: Global ISCO-08
+Source: https://kb.lightcast.io/en/articles/7170399-global-isco-08
+Content:
+Global ISCO-08 | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+All Collections
+Using Global Analyst
+Global ISCO-08
+Global ISCO-08
+ 
+Updated over 2 years ago
+The International Standard Classification of Occupations (ISCO) is a system used to classify and organize jobs and occupations. ISCO-08 is the latest version of this classification system.
+ 
+Find more information about ISCO-08 in the
+ International Labour Organization's manual.
+ 
+ISCO-08 was adopted through a resolution of a Tripartite Meeting of Experts on Labour Statistics held in December 2007. This resolution was subsequently endorsed by the Governing Body of the ILO in March 2008.
+ 
+Although the conceptual model used to guide the development of ISCO-08 has not been fundamentally changed from that used in ISCO-88 (see this article for details on ISCO-88), there are significant differences in the treatment of some occupational groups. These differences reflect the need to address concerns about specific difficulties experienced in the use of ISCO-88, as well as the need to reflect occupational change in the 20-year period since its development.
+ 
+The names of some of the major groups have been changed slightly so as to more clearly indicate their content, and some occupational groups have been moved from one major group to another. As a result, conversion of data directly from ISCO-88 major groups to ISCO-08 major groups is not possible.
+ 
+Many of the changes address concerns that ISCO-88 was seriously out of date in some areas, most notably as a result of the impact of developments in technology on professional, technical and clerical work associated with the use of computers and telecommunications. Some categories in ISCO-88 have therefore been merged, split or moved to reflect occupational and technological change in the labor market. New categories have been created to allow for the identification of new or emerging occupational groups.
+ 
+In addition, there are some changes in the way the ISCO conceptual model is applied to the design of the classification. Most notably, the nature of the work performed has been given more emphasis than formal education and training requirements in determining the skill level of an occupation.
+See further details on the ILO site: 
+https://www.ilo.org/public/english/bureau/stat/isco/isco08/index.htm
+Related Articles
+HK-Hong Kong Methodology
+IL-Israel Methodology
+IN-India Methodology
+UK Standard Occupational Classification (UKSOC) - 2020
+ISCO / ESCO - International / European Standard Classification of Occupations
+Did this answer your question?
+😞
+😐
+😃

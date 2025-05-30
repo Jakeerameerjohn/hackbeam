@@ -1,0 +1,80 @@
+---
+Title: Company & Industry Classification Methodology
+Source: https://kb.lightcast.io/en/articles/6957641-company-industry-classification-methodology
+Content:
+Company & Industry Classification Methodology | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Overview
+Company Taxonomy
+How it works 
+Industry Classification methodology
+Staffing Company Methodology
+All Collections
+Data Methodology
+Postings
+Company & Industry Classification Methodology
+Company & Industry Classification Methodology
+ 
+Updated over 7 months ago
+Table of contents
+Overview
+Company Taxonomy
+How it works 
+Industry Classification methodology
+Staffing Company Methodology
+Lightcast's company classifier is built from over 400 different open source company datasets and draws from each to provide a comprehensive view of companies in the world. This classification is designed to be global in scale and adaptable to the future needs of our customers. 
+ 
+Overview
+Global in scale:
+ We can use the company classifier to classify job postings and profiles in all of the countries for which we have data.
+Recency:
+ The Lightcast Companies Taxonomy is updated monthly to keep pace with shifts in the market.
+Adaptable to fit customer needs:
+ We can develop and add new metadata to our Companies Taxonomy to better serve our clients' evolving needs.
+ 
+Company Taxonomy
+Lightcast holds a Global company taxonomy, which we update monthly. 
+As we maintain a large array of records, it is expected to have duplicate records in the taxonomy data, we are happy to do specific clean up and mergers that maybe requested by customers alongside our proactive and continuous company work. 
+ 
+How it works
+ 
+Starting with raw company names, we normalize these names using a set of proprietary criteria. This strips information from the name that is irrelevant to identifying the company correctly (e.g. LLC, Inc.). This leaves a normalized name with all the ingredients needed to classify it to our Companies Taxonomy. After normalization, we match the clean name to the best fit in our Companies Taxonomy. Each company has associated metadata, including Tradestyle, NAICS codes, and staffing labels. If a company is a subsidiary or establishment of another company, we generally roll it up into the main company when the establishment or subsidiary has the parent in its name. For example, “Walmart Canada” would be classified as “Walmart.”
+ 
+We do have exceptions for consideration of companies that advertise as a brand or product and output job advertisements, such as social media platforms.  For example, postings may be advertised as TikTok but will appear under the taxonomy as ByteDance, Ltd, which is the actual employer.  The same exception applies to hospitals in which they maintain a different name and self-sufficiency, however, are where appropriate, under the umbrella of a parent company.  These will also appear within the taxonomy under the parent company.
+ 
+Industry Classification methodology
+We code companies to the most granular industry level possible Globally. For example, NAICS at the 6-digit level, and will fall back to 2-digit NAICS if we are unable to infer a 6-digit NAICS. 
+ 
+While we realize a company can work in multiple industries depending on the establishment, currently, we assign only one industry code to each company. 
+ 
+This code is assigned by our team through a comprehensive examination of the main website, utilizing essential informational sections to assign an appropriate industry code. 
+ 
+For example, Amazon is coded to NAICS 459999 - All Other Miscellaneous Retailers, because its the most common industry a company works in even though many Amazon establishments may work in different industries. 
+ 
+Additionally, to more programmatically code industries a keyword-based industry classification can be implemented using the company's name within the taxonomy, as shown by the NAICS code 622110 for general hospitals when "hospital" is identified in a company name.
+ 
+We currently use US NAICS for both US and Canada. Canada has their own NAICS code system that differs from the US. However, we have not added this industry taxonomy to Canadian companies yet.
+ 
+We currently use geography specific versions of SIC coding for UK, Australia, New Zealand and Singapore.
+ 
+Staffing Company Methodology
+After company name is normalized, it is assigned  staffing company flag where appropriate. This is done via qualitative research. 
+ 
+For the purposes of job posting data, companies are labelled as staffing when they are a) true staffing companies, or recruitment company b) job boards or brands maintained by staffing companies. This allows customers to filter results based on what they would like to see.
+ 
+Related Articles
+Job Posting Analytics (JPA) Methodology
+Lightcast NAICS
+Industry and Occupation Diversity Methodology
+Lightcast Occupations Taxonomy (LOT) Classification Methodology
+North American Industry Classification System (NAICS)
+Did this answer your question?
+😞
+😐
+😃

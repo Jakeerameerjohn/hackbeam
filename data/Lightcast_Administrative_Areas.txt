@@ -1,0 +1,225 @@
+---
+Title: Lightcast Administrative Areas
+Source: https://kb.lightcast.io/en/articles/8985791-lightcast-administrative-areas
+Content:
+Lightcast Administrative Areas | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Overview 
+Global Metropolitan regions
+LAA Metropolitan Regions by Country
+FAQs
+All Collections
+Using Global Analyst
+Lightcast Administrative Areas
+Lightcast Administrative Areas
+How Lightcast divides and defines geographical location.
+ 
+Updated over a month ago
+Table of contents
+Overview 
+Global Metropolitan regions
+LAA Metropolitan Regions by Country
+FAQs
+Overview 
+Lightcast's Global data is designed to best enable international comparisons. As with the creation of the 
+Lightcast Occupation Taxonomy
+ 
+to normalize different global occupation standards, Lightcast provides data in the global tool for standardized local 
+Lightcast Administrative Areas
+ within each 
+Country
+. 
+ 
+The goal of the Lightcast Administrative Area's (LAA's for short) is to create a unified geographic mapping of data that corresponds with the local governmental definitions of those area's. 
+ 
+Global Metropolitan regions
+Talent Analyst uses the Metropolitan Area definitions of the Lightcast Administrative Area framework to filter and display localized data. Since official 'metropolitan areas' are defined on national or regional levels, we utilize 
+Lightcast Administrative Areas
+ to ensure that we're comparing similar metropolitan areas globally. 
+ 
+Metropolitan definitions are based on government defined regions, in most cases coming direct from local authorities. For example, US Metros are based on the Office of Management and Budget's 
+Metropolitan Statistical Areas
+. 
+The table below demonstrates the breadth by country.
+ 
+LAA Metropolitan Regions by Country
+Country
+Count
+Local Equivalent
+Key population notes
+United States
+384
+Metropolitan   Statistical Areas (not micropolitan)
+>100k
+India
+318
+Custom
+Metros over   1m
+Mexico
+92
+Metropolis   de Mexico
+>200k
+Germany
+68
+Eurostat   Metros
+>250k   population
+United Kingdom
+63
+Centre for Cities   Primary Urban Areas
+ 
+Brazil
+58
+Custom
+ 
+Canada
+41
+Census   Metropolitan Areas
+>100k
+France
+35
+Eurostat   Metros
+>250k   population
+Argentina
+30
+Custom
+ 
+Colombia
+26
+Custom
+ 
+Spain
+23
+Eurostat   Metros
+>250k   population
+Italy
+22
+Eurostat   Metros
+>250k   population
+Poland
+19
+Eurostat   Metros
+>250k   population
+Australia
+19
+Custom -   urban equivalents based on SA3
+ 
+Philippines
+14
+Custom
+ 
+Netherlands
+13
+Eurostat   Metros
+>250k   population
+Malaysia
+13
+Custom
+ 
+Romania
+9
+Eurostat   Metros
+>250k   population
+South Africa
+8
+Metropolitan   municipalities
+ 
+United Arab Emirates
+8
+Custom
+ 
+Switzerland
+7
+Eurostat   Metros
+>250k   population
+New Zealand
+7
+Custom
+ 
+Puerto Rico
+7
+Custom
+ 
+Belgium
+6
+Eurostat   Metros
+>250k   population
+Austria
+5
+Eurostat   Metros
+>250k   population
+Sweden
+4
+Eurostat   Metros
+>250k   population
+Denmark
+4
+Eurostat   Metros
+>250k   population
+Czechia
+4
+Eurostat   Metros
+>250k   population
+Portugal
+3
+Eurostat   Metros
+>250k   population
+Ireland
+2
+Eurostat   Metros
+>250k   population
+Hong Kong
+1
+Custom
+ 
+Singapore
+1
+Custom
+ 
+Luxembourg
+1
+Eurostat   Metros
+>250k   population
+ 
+FAQs
+What are Lightcast Administrative Areas?
+The geographical locations associated with our global dataset are defined by Lightcast Administrative Areas, or LAAs. These are geocodes, or statistical divisions of a country for ease of analysis. They align with local geocode standards in each country that Lightcast maintains data for, for example the 
+NUTS area codes
+ across the European Union, and the 
+FIPS subdivisions
+ of the United States.
+Why isn't a particular metro area available within the global metros? 
+Metropolitan definitions are based on government defined regions, in most cases coming direct from local authorities. Lightcast has a threshold in each country to maintain a manageable number of metropolitan areas. Refer to the table above to determine the specific local definitions and the threshold in each country.
+Do global metros cover entire nations? 
+No. Global metros do not exhaustively cover a country's area. Smaller regions areas are included in national estimates but not specifically addressed within the "metropolitan" areas of the global tool. 
+ 
+How does Lightcast classify postings to geographical locations?
+Lightcast collects many thousands of job postings per day from around the world. The text of these postings is analyzed for place names which are singled out and recorded as the raw location associated with that posting. Only one location is saved per posting.
+​
+This raw location is submitted to Google geocoding to derive the latitude and longitude of the location. All other other location data (such as city, county, state,  Lightcast Administrative Areas, etc) is assigned from those values.
+​
+​
+ 
+Note
+On February 14th we are making a change to the methodology used to classify 
+Lightcast Administrative Areas
+.
+ 
+Previously, if no lower-level administrative area was present, we would not classify the country level. Going forward, if a location is available only at the national level, the country will now be classified.
+ 
+ 
+Related Articles
+FI-Finland Methodology
+ES-Spain Methodology
+EL-Greece Methodology
+DK-Denmark Methodology
+EE-Estonia Methodology
+Did this answer your question?
+😞
+😐
+😃

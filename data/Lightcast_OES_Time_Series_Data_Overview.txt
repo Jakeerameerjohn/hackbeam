@@ -1,0 +1,77 @@
+---
+Title: Lightcast OES Time Series Data Overview
+Source: https://kb.lightcast.io/en/articles/6957515-lightcast-oes-time-series-data-overview
+Content:
+Lightcast OES Time Series Data Overview | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Introduction
+Process Overview
+BLS Cautions
+Expected Changes
+All Collections
+Data Methodology
+Labor Market Information (LMI)
+Lightcast OES Time Series Data Overview
+Lightcast OES Time Series Data Overview
+ 
+Updated over 2 years ago
+Table of contents
+Introduction
+Process Overview
+BLS Cautions
+Expected Changes
+Introduction
+Lightcast has made two improvements in how we use the BLS's Occupational Employment Statistics (OES) dataset. These improvements allow us to drastically improve the quality of occupation employment and earnings data that we deliver to our clients.
+ 
+First, Lightcast now offers historical occupation earnings data back to 2005. Because the BLS advises against combining multiple years of OES to create a time series (a multi-year dataset) of employment or earnings, Lightcast has only ever provided earnings from the latest year of OES available. Lightcast has always provided historical occupation employment counts as a time series because our employment counts are based on the BLS's QCEW dataset, which is a time series by definition. In the past, we used OES's latest staffing patterns and regional employment estimates, back-projected for older years, to transform QCEW-based industry job counts into occupation job counts.
+ 
+Second, we now use historical OES staffing patterns and regional employment data to transform industry data, rather than just using back-projected, current-year OES.
+ 
+Both improvements are possible because Lightcast has created a time series of OES data. The remainder of this overview will briefly explain the process of creating a time series of OES data, and will address the BLS's cautions regarding using OES as a time series.
+ 
+Process Overview
+Lightcast rewrote the entire occupation data pipeline, creating a time series of OES data to allow us to utilize historical years of OES to improve occupation job counts and earnings and to provide historical occupation earnings.
+ 
+OES data is first imported and cleaned. Because OES is not designed as a time-series, some preliminary work is necessary, such as ensuring that all years' file formats are the same, and removing duplicate data and certain mid-level aggregations that can't be used.
+ 
+The data is then prepared for unsuppression in the seeding process. The seeding process provides estimate values ("seeds") for suppressed data points. Seeds come from other years of OES and from QCEW.
+ 
+Once the data has been seeded, it is unsuppressed, meaning that the seed values (not disclosed values) are allowed to change until each suppressed data point has an estimate that allows the whole dataset to sum properly in accord with all known (disclosed) data (e.g. all data points for occupation employment in an MSA sum to total employment for the MSA).
+ 
+Earnings data are similarly seeded (with OES data from neighboring years) and unsuppressed using techniques specific to earnings unsuppression.
+ 
+After employment and earnings have been unsuppressed to produce individual years of internally cohesive data, the unsuppressed OES years are then combined to create a time series. To create a time series, outliers caused by hidden methodology shifts in OES data between years must be smoothed, and earnings must be re-calculated to take into account classification shifts (e.g. switch from SOC 2010 to 2018).
+ 
+BLS Cautions
+The BLS cautions users against treating OES as a time series for several reasons. Lightcast's OES time series process fully accounts for the BLS's concerns.
+ 
+NAICS, SOC, and Geography Classification Shifts: 
+The BLS warns that OES cannot be used as a time series because classifications sometimes change between years. Lightcast (and any LMI provider that works with government labor market data) deals with classification shifts in many other datasets, and OES is no exception. Lightcast's standard classification transformation algorithms easily transform classifications in OES data.
+ 
+Changes in Survey Reference Period and Changes in Mean Wage Estimation: 
+In 2002, the BLS made several fundamental changes to OES including the time period to which the OES survey refers, and how mean wage is estimated. Since OES is collected over a three-year cycle, these changes affect 2002, 2003, and 2004 data. Lightcast opts to use historical OES data back to 2005 and use back-projection to fill in occupation data for 2001-2004.
+ 
+Permanent Features of OES Methodology: 
+The BLS's three-year, six-panel approach to the creation of OES means that large shifts in employment between panels can be disguised in an annual OES release. Lightcast submits that this is a benefit, as the major problem with OES is its volatility. Additionally, since Lightcast uses QCEW as the basis for employment counts and supplements with OES staffing patterns and employment, employment shifts in OES would only minimally affect final Lightcast data.
+ 
+Hidden Methodology Shifts: 
+Hidden changes in how the BLS administers the OES survey can change the nature of employers' responses to the survey and therefore affect the data, causing large, inexplicable shifts in OES employment and earnings estimates from year to year. Identifying these shifts and dealing with them was the most difficult part of creating a time-series out of OES data. Lightcast's seeding and unsuppression methodologies are designed to find and counteract sudden changes in data that are caused by these methodology shifts. We use a number of techniques including modeling employment with different years' staffing patterns and comparing the results, using smoothing techniques designed to bring outliers into agreement with established trends, and allowing OES to seed itself across years.
+Expected Changes
+Lightcast expects this methodology to lead to more stable occupation employment and earnings data over time. Volatility inherent in the OES data will be muted although not eliminated. Volatility, where still present, is mostly seen in geographical regions with low employment and a large number of suppressed data points. Improving employment and earnings stability for such regions is a current area of research for Lightcast.
+ 
+Related Articles
+Lightcast Data: Basic Overview
+ZIP-Level Employment Data
+US Data Release Notes
+Lightcast UK Data Process Overview
+Occupational Employment and Wage Statistics (OEWS)
+Did this answer your question?
+😞
+😐
+😃

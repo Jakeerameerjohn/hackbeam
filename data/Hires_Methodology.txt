@@ -1,0 +1,78 @@
+---
+Title: Hires Methodology
+Source: https://kb.lightcast.io/en/articles/6957581-hires-methodology
+Content:
+Hires Methodology | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Sources
+Methodology
+Example
+All Collections
+Data Methodology
+Labor Market Information (LMI)
+Hires Methodology
+Hires Methodology
+ 
+Updated over 4 months ago
+Table of contents
+Sources
+Methodology
+Example
+Lightcast hires are calculated using a combination of Lightcast jobs data, information on separation rates from the Bureau of Labor Statistics (BLS), and industry-based hires data from the Census Bureau.
+ 
+Sources
+Census’ 
+Quarterly Workforce Indicators (QWI)
+: original source of hires data. Data is reported by businesses and therefore by industry. Lightcast’s hires process will transform these industry figures into occupation figures.
+ 
+Lightcast regional industry by occupation growth
+ 
+BLS 
+separation rates
+. We use the separations rate (not separation counts), and we use the total rate (sum of Labor Force Exists rate and Occupational Transfers rate).
+Methodology
+Use Lightcast occupation growth together with BLS occupation separation rates to model, for each industry-area combination, the pattern of occupational hiring needs.
+ 
+Calculate Lightcast growth between each consecutive year pair (e.g. 2016 and 2017) for each county by industry by occupation node by subtracting earlier year employment from later year employment. If there is decline rather than growth (e.g. 210 jobs in 2016 and 150 jobs in 2017), growth = 0.
+ 
+Calculate the number of BLS-based separations for each county by industry by occupation node. This is done by multiplying earlier-year employment by the BLS separation rate for that particular occupation.
+ 
+Sum Lightcast growth and BLS-based separations for each county by industry by occupation node. This results in model hires.
+ 
+Normalize model hires along the occupation dimension so that the sum of all model hires within a particular county- industry node equals 1.0. In lay terms, this means that the model hires figures for each county-industry node are turned into percentages. In other words, the result of this step would show that in Latah county, 35% of the model hires in General Medical and Surgical Hospitals are for CNAs, 20% of the model hires are for Orderlies, 5% of the model hires are for Security Guards, and so on. We now have normalized model occupation hires we can use to break out our chosen source of hires data, QWI industry hires.
+ 
+Apply the normalized model hires rates derived at the end of Step 1 to QWI industry hires.
+ 
+Multiply the normalized model hires by the corresponding industry hires from detailed Lightcast industry data (somewhat processed version of QWI industry hires). This yields the estimated number of hires made in each county by industry by occupation node, using the QWI Hires number as the basis for the overall industry hires count, and using the model hires breakout from Step 1 to break the QWI industry hires figure out into occupational hires figures.
+ 
+Since the goal is simply occupation hires not broken out by industry, all hires are summed by occupation. For instance, occupation hires for Loggers are summed from all industries. This yields a final Lightcast hires figure for Loggers (and each other occupation) in each county, for each year.
+Example
+To illustrate how the process works, we can walk through an example using a fake county in which there are two industries and three occupations.Calculate job growth between years. If change is positive, growth = change. If change is negative or 0, growth = 0:
+ 
+Calculate the number of separations for each industry-occupation combination by multiplying the BLS’s separation rate for the occupation by the earlier year’s employment:
+ 
+Sum Lightcast growth and BLS-based separations for each industry-occupation combination. This results in model hires for each county-industry-occupation combination:
+ 
+Turn occupational Model Hires into a percentage of hires for each industry:
+ 
+Multiply QWI industry hires figures by the percent model hires figures, breaking each industry’s hires out into hires by occupation:
+ 
+Since the goal is occupation hires without regard to industry, hires for each occupation across all industries in the county are summed (e.g. all hires for O1, from all industries, are summed):
+ 
+The end result is hires by occupation, particular to each area in the US.
+Related Articles
+Lightcast's Gross Regional Product (GRP) Methodology
+US Data Release Notes
+Job Openings Data
+Census Tract Methodology
+Quarterly Workforce Indicators (QWI)
+Did this answer your question?
+😞
+😐
+😃

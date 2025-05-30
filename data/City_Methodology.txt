@@ -1,0 +1,94 @@
+---
+Title: City Methodology
+Source: https://kb.lightcast.io/en/articles/8987539-city-methodology
+Content:
+City Methodology | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Key Takeaways:
+Reports with city data
+Overview:
+Mapping Methodology:
+All Collections
+Data Methodology
+City Methodology
+City Methodology
+This article is an overview of the city level data added to the Analyst & Developer platforms.
+ 
+Updated over 10 months ago
+Table of contents
+Key Takeaways:
+Reports with city data
+Overview:
+Mapping Methodology:
+Key Takeaways:
+City-level data offers a detailed view of employment trends by aligning with job postings and labor market information.
+Cities may simultaneously be recognized as Incorporated Places and CDPs, affecting how employment data is collected and reported.
+City-level data adheres strictly to officially recognized municipal boundaries, ensuring accuracy and relevance for policy and planning.
+CDPs and Incorporated Places provide a structured approach to collecting city-level data, capturing both governed and ungoverned community areas.
+Reports with city data
+City Overview
+Profile Analytics
+Occupation Snapshot
+Industry Snapshot
+Job Posting Analytics 
+Job Postings Table
+Overview:
+Developer provides the best labor market insights and data to customers, and does so at granular levels down to the Census Tract. Customers use the tool today to answer questions about industry and occupation employment at the ZIP Code level, by county and state, and across the nation. 
+ 
+However, we’ve never been able to support economic developers as they look at their city when the data is computed for a 
+micropolitan statistical area (MSA.)
+ Because an MSA is made up of a central city with a large population, surrounded by nearby communities, a user could learn about 
+Hamilton County, OH, 
+but had no way to pull out details of the city of 
+Cincinnati, OH. 
+ 
+With this release, Developer begins to support that level of granularity. - What is employment within Cincinnati? How does this compare to Cleveland? How has employment changed? How does this align with what we’ve seen in job postings?
+ 
+To do this, we’re looking at data for Census Designated Places (CDPs) and Incorporated Places. This enables us to capture a more comprehensive and meaningful snapshot of employment trends, focusing on areas with significant population concentrations and economic activity.
+ 
+What to expect?
+In reports, users will find both the familiar "Government Region" radio button and a new "City" radio button in the "Select Region" section, providing the option to access city-level data within the reports.
+ 
+Mapping Methodology:
+What is a Census Designated Place (CDP)? What is an Incorporated Place? How do they align with ‘cities’ in Job Postings? 
+ 
+Incorporated places:
+ Are legally incorporated under state law, have a legally defined boundary, and an active functioning governmental structure. 
+Examples
+ of incorporated places include cities, towns, villages, etc.
+ 
+CDPs:
+ Are statistical equivalents of incorporated places and represent unincorporated communities that do not have a legally defined boundary or an active, functioning governmental structure. 
+Examples
+ of CDPs include unincorporated communities, planned communities, military installments, university towns, resort towns, etc.
+ 
+A single location cannot be part of both an incorporated place and a CDP. 'Place' data (which in most cases that users care about) line up with 'Incorporated Places',but also can include unincorporated places (CDPs specifically in this context).
+ 
+Aligns with Job Posting by providing:
+Cities: more of them, many many more of them
+ 
+Industry and Occupation Employment Data:
+Accessible city-level data primarily includes industry and occupation employment details, providing clients with valuable insights into local workforce dynamics.
+ 
+Defining Cities:
+The main difference between this new data and what's currently available at the census tract and ZIP code levels is how accurately cities are defined. Instead of using estimates or generalizations, this data precisely follows the official boundaries set by city governments. City-level data ensures a more accurate representation of employment trends by aligning with the specific boundaries defined by municipal governance, surpassing the approximations found in census tracts and ZIP codes.
+The critical distinction lies in the nuanced differences between cities, such as Boston and Cambridge or Phoenix, Mesa, and Tempe. 
+The upcoming enhancement aims to address challenges in visualizing employment data for specific cities like Mesa, promoting a more comprehensive understanding of economic development pursuits (ex. Phoenix and Mesa share some of a county, and are both part of an MSA but we don't make it easy to see employment in Mesa today. With this, we will). 
+ 
+Please note that our dataset may not cover every city comprehensively, which helps us ensure the data we provide is more accurate and refined. If you search for smaller cities, you might encounter a message stating that data for those cities is not available. This is to inform you about the limitations of our current dataset coverage.
+Related Articles
+US Data Release Notes
+Census Tract Methodology
+CA - Canada Methodology
+Occupational Employment and Wage Statistics (OEWS)
+Understanding City Overview Report
+Did this answer your question?
+😞
+😐
+😃

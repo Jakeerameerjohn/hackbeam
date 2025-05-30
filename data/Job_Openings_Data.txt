@@ -1,0 +1,62 @@
+---
+Title: Job Openings Data
+Source: https://kb.lightcast.io/en/articles/6957547-job-openings-data
+Content:
+Job Openings Data | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Replacements
+Growth
+All Collections
+Data Methodology
+Labor Market Information (LMI)
+Job Openings Data
+Job Openings Data
+ 
+Updated over 2 years ago
+Table of contents
+Replacements
+Growth
+The Openings figure estimates the change in growth and replacement jobs (Growth + Replacements = Openings). Growth captures the change in the total number of workers employed in an occupation, while replacement jobs are estimates of workers permanently leaving an occupation and needing to be replaced by new hires. A combination of both numbers indicates total Openings for the time frame. Below we walk through the calculations for both replacements and growth.
+ 
+Replacements
+The replacements portion of Openings comes from Lightcast job counts combined with national-level, occupation-specific separation rates from the 
+BLS Employment Projections
+ program. The BLS separation methodology covers workers who are permanently leaving an occupation (e.g. an Accountant retires from the workforce, or an Electrical Engineer becomes a Computer Programmer). It does not cover situations where a worker leaves the region but continues in the same line of work (e.g. a Registered Nurse who works in a hospital in San Francisco moving to Dallas to work as a Registered Nurse in an outpatient facility). Similarly, if a worker remains both in the region and in his or her occupation but moves to a different company, the BLS does not count that as a separation.
+ 
+Prior to our 2017.3 US datarun, Lightcast used the old BLS replacement rates, produced by their Replacements methodology. This methodology was built on the (now outdated) assumption that a worker entered an occupation at a young age, remained in the occupation for the duration of his or her career, and retired at the end of the career. Today, this is not the case for most occupations in most places. Because of the assumptions built into the old methodology, the BLS was significantly undercounting the number of young people leaving occupations, as well as undercounting the number of older people entering new occupations. As a result, replacement needs were being significantly undercounted by the old BLS methodology. The new Separations methodology corrects the deficiencies of the Replacements methodology and produces higher separation figures, which are much closer to actual replacement needs.
+ 
+Click here
+ to learn more from the BLS about the old and new methodologies. For more information from Lightcast on the reason for and impact of the change in the BLS's methodology, see 
+our blog post
+.
+ 
+Lightcast calculates replacement jobs over the timeframe selected by the user, but does so year over year rather than for the whole timeframe as an aggregate. The replacement demand for a particular year is calculated by multiplying the occupational employment for that year by a replacement rate. For example, the replacements for 2016 are determined by the following formula:
+ 
+2016 Replacements = 2016 jobs * BLS replacement rate
+ 
+When a user selects a multi-year time frame (e.g. 2013-2020), replacements from each year in the time frame are summed to arrive at an overall replacement count for the selected time frame.
+ 
+Growth
+The Growth portion of Openings comes from Lightcast's job counts data. Growth is a net term, meaning that job loss (negative employment change) counts as zero growth. As a result, the aggregation level (state vs. county, one class of worker vs. several, etc.) at which growth is calculated matters. This is best explained with a table containing the employment growth calculation for a fictional state containing two counties:
+ 
+The state shows growth of 300. However, if we examine the two counties individually, the picture changes:
+ 
+As this table demonstrates, if net growth is calculated at the state level, we will have allowed losses in one county to cancel out growth in the other, resulting in a “net” growth of 300. Because Openings is meant as an estimate of expected demand, it is not desirable to hide the opportunities in County 1 behind the losses in County 2. The optimal solution is to estimate net new growth 
+before
+ any aggregation is performed (including aggregations by Class of Worker, SOC, year, and geography). Using this method, we would sum the net growth for the two counties to arrive at a total growth figure of 1000 for the state. Overall, new job growth for an aggregated region or multiple years/classes of worker/occupations will always be equal to or greater than job change for the same period.
+Related Articles
+Why Don't Lightcast Projections Match BLS or State Projections?
+What's the Difference Between Job Postings and Job Openings?
+Lightcast Data: Basic Overview
+US Data Release Notes
+Hires Methodology
+Did this answer your question?
+😞
+😐
+😃

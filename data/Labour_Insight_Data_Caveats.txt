@@ -1,0 +1,69 @@
+---
+Title: Labour Insight™ - Data Caveats
+Source: https://kb.lightcast.io/en/articles/8735719-labour-insight-data-caveats
+Content:
+Labour Insight™ - Data Caveats | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+All Collections
+Labour Insight
+Labour Insight™ - Data Caveats
+Labour Insight™ - Data Caveats
+Video Tutorial: Limitations associated to Labour Market data collected online
+ 
+Updated over a year ago
+Increasing data-set.
+ 
+As we move into an increasingly digital age we are finding a larger share of the overall job market has come online. Resulting in our total counts annually 
+increasing 
+over time.
+E.g. between 2012 to 2019 our total annual job listings within ANZ doubled. This does not necessarily mean the number of job openings have doubled, simply the number of listings collected.
+Due to this we recommend bench-marking the results and using percentages rather than absolute numbers when running a point in time analysis.
+Natural bias towards high paying jobs. 
+ 
+While more jobs are being advertised online, we have identified a natural bias towards higher paying jobs.
+Some jobs such as IT and healthcare are almost comprehensively online. 
+Other categories
+ of jobs such as construction, the service sector, and other typically low-paying, rural, or roles in very small companies are not well represented in online job postings. Thus, we have little to say about these jobs.
+Private sites 
+ 
+Our data is 
+collected
+ through autonomous spiders scraping data from 
+job boards
+, therefore we are unable to access password protected sites.
+To understand how this affects our data-set multiple studies have been run, both internally and externally, and we have found our figures have a strong correlation with other online vacancy measures.
+Stock and Flow
+ 
+Our data is a 
+representation
+ of the flow of job listings, rather than the stock of jobs in the market. Due to this, jobs with high turnover may be over-represented in our data. Turnover results in high numbers of job listings – this does not necessarily indicate growth.
+Employer Demands. 
+ 
+As we only report on explicitly mentioned data points we are unable to report the skills or attributes of the successful candidate. Job listings are comprised of traits the employer would like the ideal candidate to possess, but may not necessarily be required in order to be successful in the roll.
+Recall rates
+ 
+Our 
+recall rate
+ is the percentage of listings that return from a query that also contain the data point you are reporting on. Different reports have differing recall rates as listings may include different data points.
+E.g. In 2019 within ANZ we saw that 50% of all listings included an Employer name, whereas only 22% included a Salary. Due to this we recommend taking into consideration the effect the recall rate plays on the sample size.
+Internet unreliability
+ 
+Our data is sourced from online job listings. We do occasionally notice our source sites 
+break 
+which can have an effect on our total counts.
+While we update our aggregation techniques accordingly to minimise the impact we have no control over the length of time a site may remain down.
+Related Articles
+Labour Insight™ - Labour Insight for Higher Education
+Labour Insight™ (ANZ) - Test Your Knowledge
+Labour Insight™ (SGP) - Data Dictionary
+Labour Insight™ (ANZ) - Data Dictionary
+Labour Insight™  - Snapshots Versus Create Reports
+Did this answer your question?
+😞
+😐
+😃

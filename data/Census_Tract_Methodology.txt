@@ -1,0 +1,223 @@
+---
+Title: Census Tract Methodology
+Source: https://kb.lightcast.io/en/articles/6957667-census-tract-methodology
+Content:
+Census Tract Methodology | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Overview
+Example
+All Collections
+Data Methodology
+Labor Market Information (LMI)
+Census Tract Methodology
+Census Tract Methodology
+ 
+Updated over a month ago
+Table of contents
+Overview
+Example
+Overview
+Lightcast's Census Tract industry and occupation data is still considered 
+experimental
+ and should be used with caution. We would appreciate your feedback on the data as we continue to adjust and refine the methodology.
+ 
+The general process for creating tract-level employment is to begin with Lightcast final county-level employment, model down to industry job counts for tracts using breakouts created from business-level data, and transform to occupation job counts for tracts using staffing patterns.
+ 
+We begin with Lightcast's final county-level 6-digit industry data. From there, each county's data must be broken out into the tracts that constitute the county (census tracts do not cross county boundaries). Because of the lack of reliable census tract data for detailed industries, we use multiple data sources to create a breakout pattern for each county/6-digit NAICS combination. Each dataset contains records with a census tract, an employment count, and a NAICS code assignment. From these data points, we can create an expected tract-level employment breakout for each county/6-digit NAICS combination.
+ 
+List of sources for tract breakouts: 
+American Community Survey publishes data on Households (814110) and some Government NAICS at the tract level
+NCES's IPEDS dataset contains information on postsecondary institutions at the establishment level
+USPS' DelStat dataset provides information on Postal Service
+Business listings to inform most private industries
+LODES for private industries that lack coverage in business listings, and for all industries when estimating workers covered by unemployment insurance
+Example
+To illustrate the methodology, imagine a county containing 2 industries and 5 census tracts. We know from final Lightcast industry data that the county level job counts are as follows:
+ 
+NAICS 1 Employment: 5000 
+NAICS 2 Employment: 3000
+ 
+The first step in creating the breakout pattern is to sum each NAICS' employment by tract as listed in individual business records. We do not trust employment 
+figures
+ from business listings, but we can use 
+proportions
+. Employment figures summed from business listings in this step will not match Lightcast county-level employment figures.
+ 
+As noted above, we do not trust employment numbers from individual business records. This breakout only needs to provide a decent proportional guide for the distribution of county-level employment data to tracts; it does not need to be an accurate tally of employment by tract. To turn employment figures into proportions, we divide each tract's employment by the total employment across all tracts for the NAICS in question: 
+ 
+Finally, the percentage breakouts are applied to Lightcast's county-level industry job counts for the corresponding NAICS, resulting in tract-level industry job counts for each NAICS: 
+NAICS
+Tract
+Employment
+NAICS 1
+Tract 1
+2550
+NAICS 1
+Tract 2
+0
+NAICS 1
+Tract 3
+2100
+NAICS 1
+Tract 4
+575
+NAICS 1
+Tract 5
+0
+NAICS 1 TOTAL
+ 
+5225
+ 
+ 
+ 
+NAICS 2
+Tract 1
+25
+NAICS 2
+Tract 2
+700
+NAICS 2
+Tract 3
+2400
+NAICS 2
+Tract 4
+220
+NAICS 2
+Tract 5
+0
+NAICS 2 TOTAL
+ 
+3345
+NAICS
+Tract
+Employment
+Employment %
+NAICS 1
+Tract 1
+2550
+0.4880382775
+NAICS 1
+Tract 2
+0
+0.00
+NAICS 1
+Tract 3
+2100
+0.4019138756
+NAICS 1
+Tract 4
+575
+0.1100478469
+NAICS 1
+Tract 5
+0
+0.00
+NAICS 1 TOTAL
+ 
+5225
+1.0
+ 
+ 
+ 
+ 
+NAICS 2
+Tract 1
+25
+0.007473841555
+NAICS 2
+Tract 2
+700
+0.2092675635
+NAICS 2
+Tract 3
+2400
+0.7174887892
+NAICS 2
+Tract 4
+220
+0.06576980568
+NAICS 2
+Tract 5
+0
+0.00
+NAICS 2 TOTAL
+ 
+3345
+1.0
+NAICS
+Tract
+Employment %
+Final Tract Employment
+NAICS 1
+Tract 1
+0.4880382775
+2440.19
+NAICS 1
+Tract 2
+0.00
+0
+NAICS 1
+Tract 3
+0.4019138756
+2009.57
+NAICS 1
+Tract 4
+0.1100478469
+550.24
+NAICS 1
+Tract 5
+0.00
+0
+NAICS 1 TOTAL
+ 
+1.0
+5000
+ 
+ 
+ 
+ 
+NAICS 2
+Tract 1
+0.007473841555
+22.42
+NAICS 2
+Tract 2
+0.2092675635
+627.8
+NAICS 2
+Tract 3
+0.7174887892
+2152.47
+NAICS 2
+Tract 4
+0.06576980568
+197.31
+NAICS 2
+Tract 5
+0.00
+0
+NAICS 2 TOTAL
+ 
+1.0
+3000
+This methodology produces our tract-level "seeds" - i.e., our initial estimates for tract-level employment. These seeds are further refined through Lightcast's unsuppression algorithms. For workers covered by unemployment insurance (also known as "class of worker 1"), we use LODES tract-level data so that our seeds are controlled to some real tract-level LMI. Tract employment is unsuppressed alongside city- and ZIP-level employment to ensure that all of our sub-county geographies have employment totals that are harmonious.
+ 
+To transform tract-level industry employment to occupation employment, we use staffing patterns. See 
+this article
+ to read more about how Lightcast converts industry job counts to occupation job counts.
+Related Articles
+ZIP-Level Employment Data
+US Data Release Notes
+Industry Projections Methodology
+CA - Canada Methodology
+Quarterly Census of Employment and Wages (QCEW)
+Did this answer your question?
+😞
+😐
+😃

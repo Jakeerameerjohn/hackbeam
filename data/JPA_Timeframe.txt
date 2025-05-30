@@ -1,0 +1,86 @@
+---
+Title: JPA Timeframe
+Source: https://kb.lightcast.io/en/articles/10347556-jpa-timeframe
+Content:
+JPA Timeframe | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Standard Timeframe
+Preset Timeframe
+Left Panel edits
+All Collections
+Using Analyst and Developer
+Filters & Inputs
+JPA Filters
+JPA Timeframe
+JPA Timeframe
+The timeframe filter across job postings reports
+ 
+Updated over 4 months ago
+Table of contents
+Standard Timeframe
+Preset Timeframe
+Left Panel edits
+Job Postings reports provide two ways to limit the timeframe of job postings.;
+ 
+Standard
+Preset
+ 
+Standard Timeframe
+In the 
+Standard
+ timeframe selection, a user can select one or a range of months to include in the report. This timeframe will serve as the base set of data that is included - the result will be an aggregate total of postings for the entire selected timeframe. 
+ 
+The number of available months depends on the selected 
+nation
+ and particular report, with posting data available as far back as 2010 in the United States. 
+ 
+Data in 
+Standard 
+reflects full months; as such, the latest available date is the latest 
+full-month.
+ 
+Data typically becomes available by approximately the 5th of the following month or sooner.
+ 
+Preset Timeframe
+The 
+Preset
+ timeframe enables review of data in relation to the current time, rather than a set period of time. 
+ 
+This option provides two advantages:
+ 
+View recent data:
+ With preset timeframes, users can view postings from the most recent 7 or 14 days, for example, rather than relying on monthly views. 
+Saved reports and report alerts: 
+If you are interested in monitoring a similar query on a regular basis, the 
+preset
+ timeframe simplifies the ability to create a report to regularly open and view. For example, a report for "recent posting activity within an industry" may be defined as 
+Last 90 days
+; anytime this saved report is opened, the data will update based on the most recent 90 days. 
+ 
+ 
+ 
+ 
+Left Panel edits
+ 
+The timeframe can be updated from the left panel after running a report. The initial choice of "Standard" or "Preset" determines what is available on the left side. To change from Preset to Standard (or vice versa), select "Start Over".
+ 
+ 
+ 
+ 
+ 
+Related Articles
+How to Change the Datarun
+Timeframe
+Nested Posting Table
+Regions filter
+Hot and Cold Skills by Job Postings
+Did this answer your question?
+😞
+😐
+😃

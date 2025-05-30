@@ -1,0 +1,212 @@
+---
+Title: Job Posting Analytics (JPA) Methodology
+Source: https://kb.lightcast.io/en/articles/6957446-job-posting-analytics-jpa-methodology
+Content:
+Job Posting Analytics (JPA) Methodology | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Aggregation 
+Deduplication
+Data Curation
+Job Postings Expiration
+Active and Newly Posted
+Enrichment Process
+Company Normalization
+Education Level
+Employment Type
+Experience
+Location
+Skills
+Advertised Salary
+Remote or Hybrid
+Titles
+Occupations
+Contract Type
+Unclassified Postings
+Job Posting Refreshes
+All Collections
+Data Methodology
+Postings
+Job Posting Analytics (JPA) Methodology
+Job Posting Analytics (JPA) Methodology
+ 
+Updated over 4 weeks ago
+Table of contents
+Aggregation 
+Deduplication
+Data Curation
+Job Postings Expiration
+Active and Newly Posted
+Enrichment Process
+Company Normalization
+Education Level
+Employment Type
+Experience
+Location
+Skills
+Advertised Salary
+Remote or Hybrid
+Titles
+Occupations
+Contract Type
+Unclassified Postings
+Job Posting Refreshes
+This article outlines the creation of Lightcast’s job postings data, from the collection of postings to enrichment of the data.
+ 
+It is important to note that job postings are not necessarily the same as job vacancies. There is a correlation, but many recruitment practices make this relationship imperfect. Job postings are a measure of recruitment marketing by employers purportedly looking to fill job vacancies.
+ 
+ 
+Aggregation
+ 
+The methodology used to obtain job advertisements from publicly available online job boards and company websites is based on Lightcast's advanced scraping technology. Once Lightcast identifies an online site as a valid source of employment opportunities, a dedicated spider is programmed, tested, and activated. The spider visits the site regularly and pulls job information for all posted jobs; the information is then stored in a database. Sites with the newest jobs or the highest frequency of posting changes are visited most frequently. For sites that have daily collected postings the time window from posted, to scraped, processed, and published in our data is 36 hours. Lightcast currently scrapes more than 65,000 sites worldwide.  
+ 
+ 
+Deduplication
+Lightcast’s database is a full reflection of job listings posted across the internet. As such, robust processes are required to identify and remove duplicate listings. Lightcast applies a unique two-step approach to deduplication, resulting in up to 80% of the jobs we collect being deduplicated. 
+ 
+The first step: On a source-level basis, we use intelligence contained within the scraping spiders to identify new advertisements for that source. The spiders refrain from collecting advertisements that have previously been aggregated.
+ 
+The second step:  Since the same new advertisement can be found across multiple sources, we use normalized fields such as job title, company, and location, and check if these fields have been used in new advertisements found in another source. This process is checked across 60 days of data to identify duplicates.
+ 
+To illustrate step two, here is an example: If a job for a Marketing Specialist at Google is posted for the first time on March 1st, Lightcast considers this the “original posting.” For the next 60 days, Lightcast considers any advertisements for this job found elsewhere as duplicates. In theory, if Google posts the same ad every day for a year on different sources, Lightcast will count it six times.
+ 
+ 
+Data Curation
+The posting data seen in Lightcast products is not smoothed. The deduplication process uses a fixed algorithm that ensures we deduplicate 80% of all postings collected. This high rate serves as redundancy and ensures stable data.
+ 
+We curate the data to remove outliers, usually around 1% of the data monthly. This is done by a proprietary tool that removes postings considered bad data or noise in the dataset. Examples of these include:
+Postings where the employee must invest their own money
+Pyramid schemes/MLM postings
+Sexually explicit postings
+Discriminatory content postings
+Spamming, including items such as gig economy, military, or trucking.
+ 
+Job Postings Expiration
+To expire a posting, we use the following methods:
+Fetch-based expiration:
+ We revisit previously scraped job advertisements and look for key phrases such as "Page not found" or "This job is no longer active." When these are found, we determine the advertisement to be expired.
+Age-based expiration:
+ A job advertisement expires after no more than 60 days.
+For a posting made up of one advertisement, the above results in the posting itself being expired.
+ 
+When a job posting is made up of many job advertisements, we look for all the advertisements that make up that posting. When they expire across all sources, we mark the posting as expired after a maximum of 121 days. The posting expiration is based on both the first and last seen advertisements.
+The advertisements that make up the posting are combined into an array.
+The expiration of the posting is based on both the first and last seen advertisements.
+For example, take one posting that is made up of two advertisements:
+Advertisement 1: Posted on January 1, 2022; Expired March 2, 2022
+Advertisement 2: Posted March 2, 2022; Expired May 1, 2022
+The posting will therefore be active from January 1, 2022 and will expire on May 1, 2022
+ 
+Active and Newly Posted
+Newly Posted
+ measures all postings first posted in that month.
+Active
+ measures how many postings were live during that month (even if originally posted in a previous month but still active by the employer).
+Active postings provide insight into the total open demand for a given month, while Newly Posted offers a view of the market's behavior in that month and over time.
+ 
+Enrichment Process
+Once postings are collected, Lightcast technologies parse, extract, and code dozens of data elements, including Lightcast job titles, occupations, companies, and detailed data about the specific skills, educational credentials, certifications, experience levels, and work activities required for the job. We also collect data about salary, the number of openings, and job types. This high level of detail enables users to look beyond summary statistics to discover specific skills in demand and skills that job seekers can identify and acquire if needed.
+ 
+Company Normalization
+Starting with raw company names, we normalize them using proprietary criteria, stripping irrelevant information (e.g., LLC, Inc.) to classify them in our Companies Taxonomy.
+ 
+After normalization, the clean name is matched to the best fit in our Companies Taxonomy, which includes metadata such as Tradestyle, NAICS codes, and staffing labels. Subsidiaries or establishments are generally rolled up under the parent company unless they advertise as a separate brand or product. For instance, “Walmart Canada” is classified as “Walmart.”
+ 
+We do have exceptions for consideration of companies that advertise as a brand or product and output job advertisements, such as social media platforms.  For example, postings may be advertised as TikTok but will appear under the taxonomy as ByteDance, Ltd, which is the actual employer.  The same exception applies to hospitals in which they maintain a different name and self-sufficiency, however, are where appropriate, under the umbrella of a parent company.  These will also appear within the taxonomy under the parent company.
+ 
+More information on the above and industry classification can be found 
+here 
+ 
+ 
+Education Level
+Lightcast assigns an education level to each posting using a machine learning model. If multiple education levels are mentioned, the posting will be tagged with all levels. Possible values include High School/GED, Associate’s Degree, Bachelor’s Degree, Master’s Degree, or Ph.D./Professional Degree. If no education requirements are listed, the posting will be tagged as Unspecified.
+ 
+More information can be found 
+here
+ 
+Employment Type
+Postings are tagged as full-time, part-time, flexible hours, or intern. If the posting does not specify, full-time is assumed.
+Full-time: More than 32 hours
+Part-time: 32 hours or less 
+Flexible hours: If the posting mentions both full and part time, or a range of working hours
+ 
+Experience
+Years of required experience are captured when available. Postings that do not include an experience level will not be displayed when the Minimum Experience Required filter is applied.
+ 
+ 
+Location
+Country, city, and state information is captured during the scraping process. Most postings list a major city as the reference point, not a specific neighborhood. If multiple cities are mentioned, only the first city is captured.
+ 
+For example, if the posting contains:
+ 
+"Driver Wanted in London, OH, Logan, OH, Mount Gilead, OH. Excellent pay."
+ 
+London, OH would be the city designated for this posting.
+ 
+Lightcast maps postings to traditional MSAs using a mapping based on Google geo-coding that links MSAs to the city-state combinations found in job postings. A similar process is used to map city-states to counties.
+ 
+ 
+Skills
+For job postings we utilize the Lightcast Skills taxonomy as described 
+here.
+ On average, 13 skills are extracted per posting. Each skill in the Lightcast Taxonomy has one display name, but our models also use aliases, acronyms, abbreviations, and historic names to extract skills. The process begins by segmenting and tokenizing job postings to remove extra characters (punctuation) and new lines. The model then scans the text for word sequences that indicate skills in the proper context. For example, when "AWS" appears, the surrounding context helps determine whether it refers to the "American Welding Society" or "Amazon Web Services." A confidence score is assigned, and accuracy thresholds ensure quality predictions are displayed. 
+ 
+Advertised Salary
+Some job postings include the salary or salary range. Lightcast extracts and cleans this information and includes it when it reflects the position accurately. Lightcast does not present an 'estimated salary' for the individual job posting. 
+ 
+Hourly salaries are converted to annual formats, and vice versa, using appropriate work hours for each country. For example, in Turkey, we use the annual standard of 2,340 work hours.
+ 
+Remote or Hybrid
+All job postings are analyzed for language that indicates whether the position can be fully or partially remote. This involves scanning the title and body field of each posting for job location-related terms. Common phrases include “remote,” “position can be located anywhere,” “work from home,” “telecommute,” and “partially remote.” Based on this, postings are tagged as Remote, Hybrid, or Non-Remote. The definition of "Remote" includes jobs that require living in a specific region but don’t require office attendance. Postings without any clear job location information are tagged as Unknown.
+ 
+Titles
+Raw titles are cleaned and normalized to our Lightcast Titles taxonomy, simplifying complex titles to more general ones. For example, a posting listed as “Data Science Manager, Messenger” for Facebook would be normalized to “Data Science Manager.” 
+ 
+ 
+Occupations
+We classify occupations using a proprietary process that combines machine learning (ML) models with rules curated by our in-house taxonomy team.
+ 
+Rules are applied first, and the model is used only if no rule matches. When a job posting matches a predefined rule pattern, it is assigned a 
+Lightcast Specialized Occupation
+. This ensures that job postings with clear rule-based classifications are efficiently processed without further analysis by the machine learning model. Nonproprietary occupation taxonomies are then applied to postings based on the classified Lightcast Specialized Occupation and an additional set of disambiguation rules.
+ 
+As we continuously improve the rules and models based on internal quality checks and client feedback, the data becomes increasingly accurate. This improved coding is then used to retrain the model for further refinement.
+ 
+Throughout the process, a dedicated team performs hand curation and quality checks to ensure accuracy.
+ 
+Contract Type
+Lightcast classifies the following contract types: Apprenticeship, Internship, Temporarily, Temporary/Permanent, Permanent.
+ 
+For Apprenticeship and Internship, Lightcast assigns a contract type to a posting using a machine learning model. 
+ 
+For Temporary, Temporary/Permanent, Permanent contract types. Lightcast defaults all postings to Permanent. Lightcast then uses machine learning as well as rules curated by our in-house taxonomy team to look for patterns in the title or job posting body that would indicate the postings is a temporary position. For instance patterns such as 'employment type, temporary', 'seasonal', 'summer opportunity', 'temp to hire' would classify a temporary position.
+ 
+Unclassified Postings
+Some job postings may have "Unclassified" data elements. This occurs either because the information is not present in the job advertisement or because our coding process is unable to extract and classify that element. We closely monitor the number of unclassified entries in the dataset and work to reduce them as part of our regular monthly maintenance cycles.
+ 
+Job Posting Refreshes
+Lightcast reclassifies postings data monthly. We take all of the historic and current raw postings data, then we reclassify all of the data with the most up to date versions of our classifiers, deduplicate the data, and publish the data.
+​
+This means that all historic data can have latest skills or any other new classifications and normalizations applied not only to new data but to data for all time.
+For example, when we introduced the skill 'Generative AI Agents' in January 2025, we were able to identify this skill in all historic data.
+This creates no down time and is seamless for our customers.
+Further links to change logs can be found here:
+​
+https://docs.lightcast.dev/taxonomies
+​
+https://docs.lightcast.dev/updates/postings-volume-changelog
+Related Articles
+Global Postings Data Overview
+Updates to Canada NOC coding in job postings
+Lightcast Occupations Taxonomy (LOT) Classification Methodology
+Lightcast Australia & New Zealand Postings Data
+Lightcast Singapore Postings Data
+Did this answer your question?
+😞
+😐
+😃

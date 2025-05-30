@@ -1,0 +1,72 @@
+---
+Title: Lightcast's Gross Regional Product (GRP) Methodology
+Source: https://kb.lightcast.io/en/articles/6957464-lightcast-s-gross-regional-product-grp-methodology
+Content:
+Lightcast's Gross Regional Product (GRP) Methodology | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Two Methods of Calculating GRP
+Sources
+Process
+Historical GRP Calculations
+All Collections
+Data Methodology
+Labor Market Information (LMI)
+Lightcast's Gross Regional Product (GRP) Methodology
+Lightcast's Gross Regional Product (GRP) Methodology
+ 
+Updated over 6 months ago
+Table of contents
+Two Methods of Calculating GRP
+Sources
+Process
+Historical GRP Calculations
+Lightcast provides historical GRP data down to the 
+ZIP level
+. GRP, or gross regional product, is simply the GDP (gross domestic product) measure applied to a smaller region.
+ 
+Two Methods of Calculating GRP
+Wikipedia 
+defines
+ GDP as "a monetary measure of the market value of all the final goods and services produced in a period of time, often annually or quarterly." There are two widely recognized methods of determining GDP. The first is expenditure-based, and defines GDP as the sum of all final goods and services purchased in an economy. The income approach sums earnings, taxes, and profits, and subtracts subsidies. Lightcast uses the income approach to calculate GDP/GRP.GRP, or Gross Regional Product, is simply GDP calculated for a smaller region. All the same components—earnings, taxes, profits, and subsidies—must be calculated at the regional level. The remainder of this document outlines how Lightcast calculates GRP, which is the regional sum of earnings, taxes, and profits, less subsidies.
+ 
+Sources
+Lightcast’s sources for final GRP data include the following:
+ 
+Lightcast’s industry earnings data (BLS’s Quarterly Census of Employment and Wages, along with multiple supplementary data sets)
+BEA Gross State Product (GSP) dataset
+Lightcast’s national Input-Output model
+BEA National Income and Product Accounts (NIPA)
+ 
+Lightcast does not use BEA’s GMP (metro-level GDP) or GCP (county-level GDP) datasets. GMP does not agree with GSP, so we favor GSP; however, Lightcast’s final results are similar to both GSP and GMP. Lightcast evaluated GCP for possible inclusion in our calculation of GRP, but decided against it due to a lack of available component detail, as well as negative client feedback regarding potentially questionable source data. For more information, see Lightcast’s review of BEA GCP.
+ 
+Process
+Lightcast’s national input-output model breaks national GDP out into its components—earnings, taxes, profits, and subsidies all by 6-digit NAICS. Each component must then be modeled down to the regional level.
+ 
+Model to State Level
+ 
+The usual method of creating state-level estimates for taxes, profits, and subsidies (3 of the 4 components of GRP) is to apply national coefficients to state earnings (the fourth component), creating state estimates for the first three components. The BEA also publishes state-level component totals for each state, so Lightcast uses those totals to control the state values created by applying national coefficients to state earnings. The result is more accurate state-level data that utilizes Lightcast’s state-level earnings data as well as the BEA’s state-level component totals.If the BEA has not yet reported GSP data for the working year, the latest available GSP data is scaled to match totals taken from BEA National Income and Product Account (NIPA) tables, which are updated quarterly.
+ 
+Model to County Level
+ 
+The final step is to move to county-level GRP data. Lightcast data provides county-level earnings figures (one component of GRP), and we must calculate the other three components. They are calculated individually by creating ratios at the state level using earnings data. For instance, county-level taxes are calculated by finding the ratio of state-level taxes to state-level earnings. That ratio is then applied to county-level earnings and solves to county-level taxes. The process is repeated for each component for each 6-digit industry. The result is each of the GRP components at the county level.
+ 
+Historical GRP Calculations
+Historical GRP figures are calculated by using the above process, but with historical I-O models, historical industry earnings, and historical BEA GSP data.
+ 
+All Lightcast GRP data is presented in nominal dollars.
+Related Articles
+Bureau of Economic Analysis (BEA)
+Gross Domestic Product (GDP)
+Gross Domestic Product by State (GSP)
+Gross Regional Product (GRP)
+Taxes on Production and Imports (TPI)
+Did this answer your question?
+😞
+😐
+😃

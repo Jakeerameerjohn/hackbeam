@@ -1,0 +1,84 @@
+---
+Title: Educational Attainment Data in Lightcast
+Source: Lightcast Knowledge Base (General Education Section) - https://kb.lightcast.io/en/articles/6957530-what-are-the-different-types-of-educational-attainment
+Content: What are the different types of Educational Attainment
+Everything you need to know about education in public data, by demographic, in postings, etc.
+
+Updated over 8 months ago
+Education is US Public Data
+Educational Attainment by SOC Code: 
+ 
+
+Geography: This data is national, meaning that even when running a report for a specified region, the educational attainment data will remain at the national level.
+
+Definition: A breakdown of the education levels attained by the occupation’s workforce.
+
+How does Lightcast get it?: Educational attainment by SOC code is pulled directly from the Bureau of Labor Statistics’ Education and Training Measurements for Workers 15 Years and Older by Detailed Occupation.
+
+Example: A report might state that almost 50% of Registered Nurses in the US have an educational attainment of a Bachelor’s degree, and approximately 9% have a Master’s degree.
+
+ 
+
+Typical Entry Level Education:
+ 
+
+Geography: This data is national, meaning that even when running a report for a specified region, the educational attainment data will remain at the national level.
+
+Definition: Typical entry-level education represents the education level most employees have attained upon entering an occupation.
+
+How does Lightcast get it?: The typical entry-level education data in our tools is pulled directly from the Bureau of Labor Statistics’ Education and Training Measurements for Workers 15 Years and Older by Detailed Occupation.
+
+Example: The typical entry level education for a journalist might be a Bachelor’s degree, while an environmental engineer might need a Master’s or a Doctorate degree.
+
+ 
+
+Educational Attainment by Demographic:
+ 
+
+Geography: Regional, down to county
+
+Definition: Indicates the level of education achieved by segments of the population in the United States. The data is broken out by gender and by race/ethnicity for the population ages 25 and over.
+
+How does Lightcast get it?: Educational attainment data by demographic is pulled from two years of microdata from the Census Bureau's American Community Survey (ACS).
+
+Example: In the United States, 28% of the total population have a high school diploma as of 2018: 52.5M males and 55.2M females.
+
+ 
+
+Educational Attainment by O*NET Code:
+ 
+
+Geography: This data is national, meaning that even when running a report for a specified region, the educational attainment data will remain at the national level.
+
+Definition: A breakdown of the education levels generally required for employment in an occupation. These levels may differ from the education levels attained by the occupation’s workforce which are presented by the SOC Educational Attainment from the BLS.
+
+How does Lightcast get it?: O*NET Educational Attainment is pulled directly from the O*NET Database.
+
+Example: Across the nation, 23% of registered nurses might have a Bachelor’s degree, while 66% have an Associate’s degree.
+
+ 
+
+Education in Postings
+Job Posting Analytics (JPA) Education Level:
+ 
+
+Geography: Regional
+
+Definition: Includes any mention of an education level listed within the job postings; it may be preferred, required, or negotiable. Further, postings may be tagged with multiple education levels.
+
+How does Lightcast get it?: JPA education levels are often included in the job postings that Lightcast scrapes for data.
+
+Example: “A.A. or B.A. or equivalent work or educational experience preferred” will be counted in both Associate’s Degree and Bachelor’s Degree categories.
+
+ 
+
+JPA Minimum Education Required:
+ 
+
+Geography: Regional
+
+Definition: The minimum amount of education required for a position as specified within a job posting. Not all postings include an education level; these postings will be classified as “Unspecified.”
+
+How does Lightcast get it?: Education requirements are often included in the job postings that Lightcast scrapes for data.
+
+Example: “Bachelor's minimum, postgraduate preferred” will count Bachelor’s Degree as the minimum education.

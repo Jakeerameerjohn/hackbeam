@@ -1,0 +1,35 @@
+---
+Title: Location classification in Lightcast data
+Source: https://kb.lightcast.io/en/articles/11130828-location-classification-in-lightcast-data
+Content:
+Location classification in Lightcast data | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+All Collections
+Data Methodology
+Location classification in Lightcast data
+Location classification in Lightcast data
+How does Lightcast classify location to our postings data?
+ 
+Updated over a month ago
+Lightcast collects many thousands of job postings per day from around the world. The text of these postings is analyzed for place names which are singled out and recorded as the raw location associated with that posting. Only one location is saved per posting.
+​
+This raw location is submitted to Google geocoding to derive the latitude and longitude of the location. All other other location data (such as city, county, state,  
+Lightcast Administrative Areas
+, etc) is assigned from those values.
+​
+​
+Related Articles
+Lightcast Data: Basic Overview
+Job Titles classification
+Lightcast Occupations Taxonomy (LOT) Classification Methodology
+Lightcast Administrative Areas
+Expected Posting Count Changes - Canada 2025
+Did this answer your question?
+😞
+😐
+😃

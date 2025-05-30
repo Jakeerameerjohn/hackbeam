@@ -1,0 +1,37 @@
+---
+Title: How does Lightcast handle duplicate postings?
+Source: https://kb.lightcast.io/en/articles/6957661-how-does-lightcast-handle-duplicate-postings
+Content:
+How does Lightcast handle duplicate postings? | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+All Collections
+FAQs
+Data FAQs
+How does Lightcast handle duplicate postings?
+How does Lightcast handle duplicate postings?
+ 
+Updated over 2 years ago
+Lightcast Deduplication Process:
+ 
+Lightcast’s database is a full reflection of job listings posted across the Internet, as such robust processes are required to identify and remove duplicate listings. Lightcast applies a unique two-step approach to deduplication that results in up to 80% of all jobs we collect being deduplicated.
+ 
+The first step: On a source-level basis, we use intelligence contained within the scraping spiders to identify a new advertisement for that source. The spiders refrain from collecting advertisements that have previously been aggregated.
+ 
+The second step: As the same new advertisement can be found across multiple sources. We use normalized fields including job title, company, location and check to see if these fields have been used in new advertisements found in another source. This is checked across 60 days of data to identify duplicates.
+ 
+To illustrate ‘step two’, here is an example: if there is a job for a Marketing Specialist at Google posted for the first time on March 1st, Lightcast considers this as the ‘original posting’ then for the next 60 days Lightcast considers any advertisements found as duplicates. In theory, if Google posts the same ad every day for the entire year Lightcast will count it 6 times.
+Related Articles
+Job Posting Analytics (JPA) Methodology
+Lightcast Data: Basic Overview
+Data Collection and Processing Methodology
+Lightcast Australia & New Zealand Postings Data
+Lightcast Singapore Postings Data
+Did this answer your question?
+😞
+😐
+😃

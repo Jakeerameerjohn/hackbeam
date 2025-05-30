@@ -1,0 +1,83 @@
+---
+Title: Global Postings Data Overview
+Source: https://kb.lightcast.io/en/articles/7154092-global-postings-data-overview
+Content:
+Global Postings Data Overview | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Skills
+Companies
+Occupations
+Advertised Wage
+All Collections
+Using Global Analyst
+Global Demand Data
+Global Postings Data Overview
+Global Postings Data Overview
+ 
+Updated over 2 months ago
+Table of contents
+Skills
+Companies
+Occupations
+Advertised Wage
+Real time labor market insights covering 
+more than
+ 
+⅓ of the global workforce!
+Lightcast Global's job posting data comes from a variety of geographic regions and sources. While the number of countries available vary depending on the product, Lightcast overall has profile data on over 150 countries.
+ 
+Demand data is collected daily from a variety of global sources. Lightcast tries to capture as many primary sources - such as applicant tracking systems and direct postings by employers on job boards - as possible, which we augment with high quality secondary sources.
+ 
+Employers use all kinds language and definitions to attract talent. Our various global teams, including our linguistics team, address this challenge by cleaning and enriching job postings with our taxonomies. In addition to collecting, we deduplicate global postings daily and add them as incremental updates to the data daily.  We refresh all of our demand data with latest enrichments bi-weekly. This entire process unifies data between countries and markets which helps the data speak the same language across geographies.
+ 
+Demand data can provide global insight into labor markets around the world through Global Talent Analyst, Spotlight, the 
+Lightcast API's
+ and 
+Snowflake
+.
+ 
+Skills
+Skills are a foundational translation layer that enables a standardized way to compare and evaluate job requirements across different languages and cultures, allowing for accurate talent matching and identification of skill gaps.
+ 
+In order to accurately analyze global job postings, it's important to understand language to avoid misinterpretations or missing important details, and to address language barriers that can impact analysis. We do not translate non-English job postings and use the native language of the job posting to find and tag the relevant skills.
+Skills are a great way of understanding global labor;
+Granularity: Skills provide a granular level of detail
+Comparability: Skills are a universal language
+Future-proofing: Skills provide a future-oriented perspective
+The use of skills to analyze labor demand data supports granular and contextual data-driven decision-making.
+ 
+Companies
+Our demand data goes through a process of capturing and normalizing company names. Once the data is cleaned and tagged, it becomes a valuable resource for identifying which companies are advertising job vacancies in various locations. 
+ 
+By using this facet, you can investigate the hiring strategies of key competitors and track changes in posting intensity based on company and geography. The normalized company information derived from this process is highly beneficial for accurately classifying and comprehending international demand data.
+ 
+Occupations
+We currently tag our global demand data with the 
+Lightcast Occupation Taxonomy
+, our proprietary occupation taxonomy. The taxonomy identifies roles that are the same, across employers and geographies, regardless of job title. This is especially important in emerging fields, when job titles can evolve quickly. It is composed of four different levels (Career Area, Occupation Group, Lightcast Occupation and Specialized Occupation). 
+You can still find the previous taxonomy, our 
+Global Occupations
+ in the data today. We encourage everyone to switch over to LOT as it is more granular, more accurate and more up to date with latest labor market developments. 
+Advertised Wage
+Advertised wages in job postings can provide valuable insights into understanding a particular geography or field, as well as the skills and qualifications that drive wage growth. The salaries advertised can be a signal for what employment is seen as most valuable.
+ 
+Advertised wage should be analyzed on a very granular level to ensure that local context has a chance to shine through. Different cultural norms, expectations and conventions are hard to capture in a single number.
+ 
+ 
+ 
+Related Articles
+Global Data 101
+Lightcast Occupation Taxonomy (LOT)
+Analyst Platform Changelog
+Lightcast Australia & New Zealand Postings Data
+Lightcast Singapore Postings Data
+Did this answer your question?
+😞
+😐
+😃

@@ -1,0 +1,67 @@
+---
+Title: Diversity Insights Occupation Overview
+Source: https://kb.lightcast.io/en/articles/9265668-diversity-insights-occupation-overview
+Content:
+Diversity Insights Occupation Overview | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+At a Glance
+Occupation Group Breakdown
+Suggested Talent Transitions
+All Collections
+Using Analyst and Developer
+Diversity Insights
+Diversity Insights Occupation Overview
+Diversity Insights Occupation Overview
+A Guide to the Supply & Demand Occupation Overview report in Developer
+ 
+Updated over a year ago
+Table of contents
+At a Glance
+Occupation Group Breakdown
+Suggested Talent Transitions
+To access the Diversity Insights Occupation Overview, run the 
+Supply & Demand Regional Scan
+, then click the occupation group name in the table. 
+ 
+This report provides a detailed view of the occupation group, with insights into the supply and demand dynamics within the group. Furthermore, it highlights any surpluses or shortages of talent in specific occupations, breaks down the demographics of the workforce, and identifies areas of focus for talent development and recruitment moving forward.
+ 
+At a Glance
+The first section details the growth or contraction of the occupations in the selected group between 2021 and 2023. Next, you see the ratio of available workers to job openings. In this case, the Atlanta MSA has a poor supply of available workers with a ratio of 1:4 while the national average is 2:5. Then, the number of worker surplus or shortage is listed along with the context if these occupations are easier or harder to fill in the selected region compared to the national average.  Finally, you'll see a calculation for how much of the unemployment rate in your region can be attributed to the occupations in this group. In the example above, 1.29% of the Atlanta MSA unemployment can be attributed to the field Computer and Mathematical Occupations.
+ 
+ 
+Occupation Group Breakdown
+The second section shows the demographic breakdown of the selected occupation group, followed by the demographics for the region. This helps you see how the workers in these occupations compare to the overall region. This level of granularity has never before been available. Lightcast has built a data model that leverages census data to get these calculations.
+ 
+The demographic pie charts include tabs to navigate age, race/ethnicity, and gender. In this instance, the occupation group has less workers than the regional average in the 14-18, 19-24, 55-64, and 65+ age groups. This may indicate an opportunity to collaborate with employers to introduce apprenticeship programs for these occupations. 
+ 
+Looking at the race/ethnicity tab of the demographics, you can see that these occupations only have 24.2% of Black or African American workers compared to the region where 34% of the workforce is black. Similarly, Hispanic or Latino workers are underrepresented as 4.7% of the workers compared to 8.5% of the workforce. Alternatively, you can see that Asian individuals account for 20.8% of the occupation workers while it only represents 6% of the regional workforce.  In this instance, an outreach program specifically focused on helping Black, African American, Hispanic, or Latino individuals enter computer or mathematical occupations could positively impact the diversity of the occupations as well as create more pay equity as these tend to be high paying jobs. 
+ 
+Following the diversity pie charts, you'll see a table with additional details for each individual occupation. This includes the number of postings, profiles, the supply and demand ratio, ethnic diversity, and gender diversity. The ethnicity diversity metric illustrates the presence of talent in an occupation that does not identify as white. The gender diversity metric demonstrates the representation of talent in an occupation that is not predominantly male. So in this instance 40% of Database Administrator do not identify as male compared to only 15% of Computer Network Architects. This can you you focus DEI outreach and programs to target the specific occupations that need it most.
+ 
+Suggested Talent Transitions
+The Suggested Talent Transitions section is a compilation of suggested occupations to explore for the purpose of fostering diverse talent pool. The aim of this compilation is to encourage the cultivation of a talent pool that is not only more diverse but also more equitable. 
+ 
+ 
+The first tab highlights the top growing occupations that you may want to transition talent into based on job growth. In this instance Software Developers had more than 5,000 jobs added between 2021 and 2023.
+ 
+The second tab displays the largest occupations with low pay and low diversity. For Computer and Mathematical Occupations there aren't any results in this tab. 
+ 
+ 
+But if we look at Healthcare Practitioners and Technical Occupations, we can see the graph highlight Emergency Medical Technicians. 
+ 
+Related Articles
+Industry Snapshot (Overview)
+Occupation Snapshot
+Worker Supply and Job Demand
+Diversity Insights User Guide
+Equity Pathways
+Did this answer your question?
+😞
+😐
+😃

@@ -1,0 +1,47 @@
+---
+Title: Industry and Occupation Diversity Methodology
+Source: https://kb.lightcast.io/en/articles/6957722-industry-and-occupation-diversity-methodology
+Content:
+Industry and Occupation Diversity Methodology | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+All Collections
+Data Methodology
+Industry and Occupation Diversity Methodology
+Industry and Occupation Diversity Methodology
+ 
+Updated over a year ago
+Industry Data
+Quarterly Workforce Indicators (
+QWI
+) data is used to create demographic percentage breakouts that we can apply to Lightcast industry job counts (based on 
+QCEW
+). QWI gives percentage breakouts by age/sex or race/ethnicity for 4-digit industries, but the breakouts are partially suppressed:
+ 
+Lightcast uses 
+American Community Survey
+ data to unsuppress non-disclosed values in QWI:
+ 
+The unsuppressed QWI data is then converted to demographic percentages that show what percent of the jobs in each industry should be allocated to which demographic. This percentage breakout is further enhanced by data from ACS.The result is a percentage breakout for a detailed set of NAICS codes particular to ACS but not as detailed as Lightcast. Where ACS' NAICS codes are not as detailed as Lightcast's, we apply the same QWI/ACS-based breakout to all Lightcast NAICS within the most detailed QWI/ACS category. The final product is Lightcast 6-digit industry job counts, broken out by age, gender, and race/ethnicity:
+ 
+Because it is based on Lightcast final industry job counts and percentage breakouts, summing demographic-specific job counts will result in totals that match Lightcast final industry job counts.
+ 
+Occupation Data
+Lightcast's occupation demographics data is created using the end result of the above process. Final industry demographic job counts are combined with an ACS-enhanced staffing pattern which includes demographic detail:
+ 
+The result is occupation job counts with demographic detail, again by age, gender, or race/ethnicity:
+ 
+Related Articles
+Lightcast Data: Basic Overview
+US Data Release Notes
+Census Tract Methodology
+American Community Survey
+Quarterly Workforce Indicators (QWI)
+Did this answer your question?
+😞
+😐
+😃

@@ -1,0 +1,56 @@
+---
+Title: Compensation Model Documentation
+Source: https://kb.lightcast.io/en/articles/6957494-compensation-model-documentation
+Content:
+Compensation Model Documentation | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+All Collections
+Data Methodology
+Labor Market Information (LMI)
+Compensation Model Documentation
+Compensation Model Documentation
+ 
+Updated over 2 years ago
+Introduction
+ 
+The Lightcast compensation model provides occupational wage data with skill and certification premiums. It combines percentile wage data provided from Lightcast’s LMI-based government data with observations culled from job postings.
+ 
+Sources
+ 
+The compensation model combines wage data from two distinct sources. The backbone for all Lightcast occupational wage data is the Bureau of Labor Statistics’ Occupational Employment Statistics (OES) dataset. This set is updated annually, and provides percentile earnings data for occupations at the metro level throughout the United States. In cases where percentile earnings data are suppressed, Lightcast first unsuppresses the data.Job postings are used to supplement OES data by providing wage observations that can be tied to skills and certifications (such granularity does not exist in the OES dataset). Job postings are scraped from online sources. For more about the process see 
+this documentation on job postings. 
+ 
+Updates
+ 
+The OES dataset is updated annually in May, and Lightcast’s job postings data is updated monthly. Lightcast's compensation model is updated monthly to take advantage of salary information from the latest quarter's job postings.
+ 
+Process
+ 
+The compensation model is designed to provide wage estimates for occupations with certain skill or keyword distinctions. When an occupation is requested with no special skills or keywords, normal Lightcast OES-based earnings are returned, and no wage data from postings is incorporated.When a user requests an occupation with additional skill or keyword filters (such as a welder with GMAW and FCAW welding skills), a wage curve is created using OES percentile data with earnings data from job postings plotted along the OES base curve as available. At least 100 postings matching the user’s filters must be present; otherwise a message is returned notifying the user that there were not enough postings to create a valid sample.
+ 
+Creation of Base National Wage Curves
+ 
+We first create a base national wage curve for each occupation. These are the wage curves from which all user-requested wage curves will ultimately be derived.For each occupation, OES provides national percentile estimates at the 10th, 25th, 50th, 75th, and 90th percentiles. The observations for that occupation from postings (all with different listed skills and keywords) are laid along the OES wage curve in the correct percentile ranges.Ideally, observations are equally distributed along the wage curve (i.e. 25% of observations fall between the 25th and 50th percentiles). In reality, there tend to be groups and gaps along the wage curve. To counteract the uneven distribution of observations along the wage curve, each observation is weighted. The records in ranges with fewer observations are weighted more heavily, and records in ranges with more observations are weighted less heavily. This method of weighting unevenly-distributed samples is known as poststratification.
+ 
+Processing User Requests
+ 
+The compensation model first maps from job titles to SOCs (if necessary). A national wage curve is then built using just the postings that incorporate the filters requested by the user (e.g. the welder with GMAW and FCAW welding skills). An overall curve for welders already exists (as outlined in the previous section), and along that curve are instances of postings that contain GMAW and FCAW as skills. At least 100 of them must be present to form a valid sample. A wage curve is built using the wage information contained in those postings. This curve is returned to the user.If a more regionalized wage curve is requested, estimates are generated using OES wage ratios between the nation and the requested region. Observations are not limited by location because of sample size requirements; this allows all relevant wage observations to be used.The ratios are built by comparing the national and regional OES wage curves for the occupation in question. That ratio is then applied to the 10th, 25th, 50th, 75th, and 90th percentiles on the national curve to create regionalized 10th, 25th, 50th, 75th, and 90th percentiles.For regional requests involving skills or keywords, the national wage curve incorporating observations that include the skills and keywords is built as outlined above. The regional ratio is then applied to this national estimate, producing a regional estimate.
+ 
+Minimum Wage Adjustment
+ 
+Given the lag in official wage data, it is possible to see results that are lower than a state’s current minimum wage. OES is a three-year rolling survey with an additional year’s lag before publishing, and the observations Lightcast incorporates into the compensation model can be from as far back as 2016. Because of these lags, users may sometimes see results (usually in 10th percentile earnings) that are lower than current minimum wage.Lightcast sets minimum wage floors by state using minimum wage data from the United States Department of Labor. In order to match OES data, we use minimum wage floors that correspond to the latest OES year available. For example, the latest OES earnings year available for Lightcast’s 2019.1 datarun was 2017. Therefore, during that datarun, Lightcast compensation model wage data were for 2017, and 2017 minimum wage laws were used as floors for the earnings data.
+Related Articles
+Why are there Compensation Observations Below the Minimum Wage?
+US Data Release Notes
+US - United States Methodology
+Compensation Model
+Occupation Earnings
+Did this answer your question?
+😞
+😐
+😃

@@ -1,0 +1,95 @@
+---
+Title: Labour Insight™ (ANZ) - Data Dictionary
+Source: https://kb.lightcast.io/en/articles/8735752-labour-insight-anz-data-dictionary
+Content:
+Labour Insight™ (ANZ) - Data Dictionary | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Time Period & Location
+Job Titles & Occupations
+Education, Certifications, and Skills
+Employers and Industries
+Keywords, Compensation & Job Type
+All Collections
+Labour Insight
+Labour Insight™ (ANZ) - Data Dictionary
+Labour Insight™ (ANZ) - Data Dictionary
+What data points are available within Labour Insight ANZ?
+ 
+Updated over 10 months ago
+Table of contents
+Time Period & Location
+Job Titles & Occupations
+Education, Certifications, and Skills
+Employers and Industries
+Keywords, Compensation & Job Type
+This page provides a quick overview for all filter types (outlined in blue) currently available on Labour Insight™ Australia/New Zealand (ANZ).
+ 
+Time Period & Location
+Country / State
+ - Either Australia, New Zealand, or both. States are available for Australia only.
+Australian Government Statistical Area 4 (Consolidated Cities)
+ - Official Australian Government statistical areas, reported at the SA4 level. However, most jobs in the main Australian urban centres do not provide enough location information to code to sub-city / suburban SA4 level. Therefore, in the city locations of Sydney, Melbourne, Canberra, Brisbane, Adelaide and Perth, the SA4s have been amalgamated and displayed at the city level e.g. “Sydney”. For regional Australian jobs outside of these urban areas, detailed SA4 location is given. Available for Australia only.
+Regional Council 
+- The fifteen administrative areas determined by official Regional Council boundaries. Available for New Zealand only.
+Labour Market Region (LMR) or Labour Market Area (LMA)
+ - In Australia, Labour Market Regions are used. Labour Market Regions are defined by the Australian Department of Employment and are made up of several Employment Service Areas, each. Labour Market Areas are shown for New Zealand. Labour Market Areas were defined by the former Department of Labour and were derived from travel to work area research.
+Town / City 
+– Australian / New Zealand cities and towns by name.
+Time Period 
+- Labour Insight Jobs includes data for 2012 up to present day.
+Job Titles & Occupations
+ANZSCO Occupations
+ – ANZSCO is the Australian New Zealand Standard Classification of Occupation. ANZSCO is an occupation taxonomy developed in conjunction between the Australian Bureau of Statistics, and Statistics New Zealand. This taxonomy was developed in order to improve the comparability of occupation statistics collected within Australia and New Zealand.
+Lightcast Occupation Taxonomy (LOT) 
+- The LOT is Lightcast's own proprietary occupation taxonomy. This taxonomy was created in order to improve the comparability of occupation statistics between the labour markets that Lightcast provides data for. This universal taxonomy reduces errors by removing the need for taxonomical translation, which helps facilitate international analysis.
+Job Title 
+- Job titles are extracted directly from job postings to reflect the posting employer's specific requirements. When possible, job titles are cleaned up and standardized somewhat to enable aggregate reporting and analysis in Labour Insight.
+Education, Certifications, and Skills
+Advertised Education 
+- Labour Insight's Advertised Education filters allow users to search for job postings that explicitly state requirements for a particular degree level or program of study.
+Certifications 
+- The Certifications filter in Labour Insight allows users to search on a number of professional certifications and certificates described in job postings.
+Skills 
+- Skills can be searched for on an individual basis in Labour Insight, or in groups by adding one skill at a time or by using skill cluster filters. They can be used to identify jobs that require a particular skill or knowledge base, and can be used as a starting point for identifying co-occurring skills and requirements for a given set of jobs. Skill reporting is particularly helpful for curriculum development. Burning Glass categorizes skills in two different ways: Skill Clusters and Skill Types.
+Skill Clusters 
+- Skill clusters represent groups of related skills in a single category, including Finance: Accounting, Bookkeeping, and Tax Preparation, and Engineering: Civil. They can be used for skill-group analysis of job postings, which can be useful in understanding demand, developing curriculum, and identifying postings with similar skill requirements.
+Skill Cluster Groups 
+- Skill cluster groups represent broad categories of skills including Finance, Engineering, Health, and Data Mining, among others. They are made up of individual skill clusters which can be used for skill-group analysis of job postings.
+Skill Types
+ - Describes a skill, regardless of an individual occupation. These include Baseline, Specialized, and Software Skills.
+Skill Type: Baseline 
+- Baseline skills include cross-cutting or foundational skills that are found across industries and occupations. These include things like organizational skills, communication skills, and project management.
+Skill Type: Specialized 
+- Specialized skills include professional and occupation-specific skills requested in job postings, which can run the gamut from things like accounting and sales to database administration and welding. Also included in this category are software and programming skills, which can also be viewed as a distinct category through the Software and Programming Skills view.
+Skill Type: Software and Programming 
+- Software and programming skills include specific computer programs requested in job postings as well as programming skills (including languages like Java and Perl). Depending on your filter selection, this report may return skills like Microsoft Excel, Java, and Adobe Photoshop, just to name a few.
+Employers and Industries
+Industry Sector
+ - Labour Insight industries are based on the ANZSIC industry classification.
+Industry Name
+ - The Industry name filter allows users to search for a particular industry category by name.
+ANZSIC Code 
+- The ANZSIC code filter allows users to search for a particular numeric ANZSIC code at the 1, 2, 3 and 4-digit levels.
+Keywords, Compensation & Job Type
+Keyword 
+- The keyword search in Labour Insight is a useful tool – but has limitations as it doesn’t draw on Burning Glass’s artificial intelligence technology. This filter looks for words throughout the entire body of the job posting and does not discern the keyword as a specific data elements.
+Salary (Advertised) 
+- Advertised salaries reflect the salaries explicitly listed by the employer (where included).
+Sources 
+- Sources include direct employer sites; job boards; and staffing agencies. Note that staffing agencies' listings will frequently be named as the "employer" because hiring companies are not included in the posting.
+Related Articles
+Labour Insight™ (ANZ) - Test Your Knowledge
+Labour Insight™ (SGP) - Data Dictionary
+Labour Insight™ (ANZ) - How are ANZSCO and the Lightcast Occupation Taxonomy Structured?
+Labour Insight™ (ANZ) - ANZSCO and Lightcast Occupation Taxonomies
+New large sources added to ANZ data
+Did this answer your question?
+😞
+😐
+😃

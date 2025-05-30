@@ -1,0 +1,59 @@
+---
+Title: Labor Force Participation Rate
+Source: https://kb.lightcast.io/en/articles/6957616-labor-force-participation-rate
+Content:
+Labor Force Participation Rate | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Overview
+Sources and Methodology Details
+All Collections
+Data Methodology
+Labor Market Information (LMI)
+Labor Force Participation Rate
+Labor Force Participation Rate
+ 
+Updated over 2 years ago
+Table of contents
+Overview
+Sources and Methodology Details
+Overview
+Labor Force Participation Rate (LFPR) is an economic indicator that describes how much of the population is active in the economy, either working or searching for work. The rate is calculated as:
+ 
+LFPR = 
+(
+Employed Population
+ + 
+Unemployed Population
+) / (
+Total Civilian Non-Institutionalized Population
+).
+ 
+The population denominator is not usually the entire resident population, because the goal is to compare the total number of people active in the labor force to the number of people we would reasonably expect to be in the base labor pool.
+ 
+Traditional (BLS/DOL) definition
+: civilian non-institutionalized population aged 16+
+ 
+Sources and Methodology Details
+Lightcast sources the employment and unemployment figures from the BLS’ Local Area Unemployment Statistics (LAUS) program. We do not model this data, but pull it directly from the source and use their 
+definitions
+, including their definition of the labor force as “civilian noninstitutional population ages 16 and older classified as either employed or unemployed”.
+ 
+The population denominator comes from Lightcast’s proprietary population demographics dataset, which we primarily source from the Census Bureau’s Population and Housing Estimates program (POPEST). The POPEST data represents the entire resident population, which is historically why Lightcast used that definition for the LFPR denominator. To extract the civilian non-institutionalized population from the resident population, Lightcast multiplies the resident population by ratios created from the Census Bureau’s American Community Survey (ACS) 5-year tabulations.
+ 
+There are low-quality data problems in the modeled LAUS data that can cause LFPR to meet or exceed 100%. Loving County, TX is a great example: the entire population of that county is approximately 200 (POPEST), so having a resident labor force that is approximately 300 (LAUS) is clearly erroneous.
+Related Articles
+US - United States Methodology
+Characteristics of the Insured Unemployed (CIU)
+Job
+Local Area Unemployment Statistics (LAUS)
+Unemployed
+Did this answer your question?
+😞
+😐
+😃

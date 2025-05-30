@@ -1,0 +1,74 @@
+---
+Title: Global Skills
+Source: https://kb.lightcast.io/en/articles/7170217-global-skills
+Content:
+Global Skills | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+All Collections
+Using Global Analyst
+Global Demand Data
+Global Skills
+Global Skills
+ 
+Updated over a month ago
+Skills are a foundational translation layer that enables a standardized way to compare and evaluate job requirements across different languages and cultures, allowing for accurate talent matching and identification of skill gaps.
+ 
+In order to accurately analyze global job postings, it's important to understand language to avoid misinterpretations or missing important details, and to address language barriers that can impact analysis.
+Skills are a great way of understanding global labor;
+Granularity: Skills provide a granular level of detail
+Comparability: Skills are a universal language
+Future-proofing: Skills provide a future-oriented perspective
+The use of skills to analyze labor demand data supports granular and contextual data-driven decision-making.
+ 
+Learn more about our skills at 
+https://lightcast.io/open-skills
+ 
+Lightcast does not machine translates data in order to tag skills through an English classifier. All our skills extraction happens in native language.
+Skills are tagged by looking at the full context of the posting, this allows us to accurately determine if a posting is asking for a Python programmer at a startup versus a Python animal caretaker at a zoo. This context is all done in the language of the document and 
+not
+ through a machine translation to English for maximum accuracy. 
+ 
+Currently, Lightcast global skills are tagged in the following languages;
+ 
+Supported Languages
+English
+Spanish
+Chinese
+Portuguese
+French
+German
+Japanese
+Korean
+Italian
+Polish
+Dutch
+Romanian
+Swedish
+Czech
+Danish
+ 
+Example
+Body
+Wij zoeken een ervaren dierentuin verzorger voor het verzorgen van pythons, inclusief voeding, monitoring en onderhoud. Sterke communicatie- en teamwork vaardigheden zijn vereist.”
+ 
+Context
+Body is looking for someone working in a zoo, to nurture animal welfare with a specific focus on python snakes.
+ 
+Tag
+skill: ‘ESD657F429AE3CDCD027’
+skill_name: Avian And Exotic Animal Care
+Related Articles
+Global Postings Data Overview
+Lightcast Occupation Taxonomy (LOT)
+Lightcast Skills Taxonomy
+Skills
+Global Data Release Notes
+Did this answer your question?
+😞
+😐
+😃

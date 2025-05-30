@@ -1,0 +1,69 @@
+---
+Title: Lightcast Nations and Dataruns
+Source: https://kb.lightcast.io/en/articles/10344528-lightcast-nations-and-dataruns
+Content:
+Lightcast Nations and Dataruns | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+All Collections
+Using Analyst and Developer
+Getting Started
+Lightcast Nations and Dataruns
+Lightcast Nations and Dataruns
+Lightcast data across the globe
+ 
+Updated over 3 weeks ago
+Lightcast data comes from a mix of sources: 
+government labor market information,
+ 
+job postings
+, 
+profiles
+, and proprietary models. 
+ 
+Depending on customer subscription access, users can choose between four "nation" options:
+United States
+United Kingdom
+Canada
+Global
+ 
+ 
+Due to the reliance on government data, the available data is not entirely consistent across these nations. For example, demographic information is collected and available more often in the United States than other regions. 
+Additionally, these datasets are built to provide knowledge and insight that aligns with the local regions. The 
+US
+, 
+UK
+, and 
+Canada
+ use different occupation taxonomies, for example, and Lightcast has developed a single international 
+Lightcast Occupation Taxonomy
+. 
+ 
+The 'national datasets' provide data in the locally recognized taxonomies (occupation, industry, education classifications, etc) as well as the Lightcast Occupation Taxonomy. 
+The 'Global' dataset uses consistent taxonomies across the nations to enable internationally comparative data.
+ 
+For each dataset, Lightcast reruns government data 
+2-4 times per year
+ in what we call 'dataruns'. Users are able to access the most recent datarun as well as the previous two dataruns in the platform at all times.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Related Articles
+How to Change the Datarun
+Lightcast Occupation Taxonomy (LOT)
+Analyst Platform Changelog
+Lightcast Administrative Areas
+Global Data Release Notes
+Did this answer your question?
+😞
+😐
+😃

@@ -1,0 +1,80 @@
+---
+Title: Global Data 101
+Source: https://kb.lightcast.io/en/articles/7153977-global-data-101
+Content:
+Global Data 101 | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Global Job Postings Data
+Global Worker Profiles Data
+Labor Market Intelligence Data
+All Collections
+Using Global Analyst
+Global Data 101
+Global Data 101
+ 
+Updated over a month ago
+Table of contents
+Global Job Postings Data
+Global Worker Profiles Data
+Labor Market Intelligence Data
+Lightcast Global wants to empower you with great data and clear methodology so you can make decisions with confidence.
+Lightcast offers three principal dataset to help understand global labor markets;
+Global Job Postings Data
+Global Worker Profiles Data
+Global Labor Market Intelligence Data
+Global Job Postings Data
+Real time labor market insights covering 
+more than
+ 
+⅓ of the global workforce!
+Lightcast global postings data can solve problems across a multitude of geographies. Our job postings demand data is live in 41 countries today and is continuously improving it's coverage.
+ 
+Employers use all kinds language and definitions to attract talent. Our various global teams, including our linguistics team, address this challenge by cleaning and enriching job postings with our taxonomies. We collect and deduplicate global postings and add them as incremental updates to the data daily. Additionally, we refresh all of our data with our latest enrichments bi-weekly. This process unifies data between countries and markets which helps the data speak the same language across geographies with daily updates.
+ 
+Demand data can provide global insight into labor markets around the world through 
+Global Talent Analyst
+, Spotlight, the 
+Lightcast API's
+ and 
+Snowflake
+.
+ 
+Global Worker Profiles Data
+Relevant, cleaned and enriched global work-related social profiles
+Lightcast Global's social profile data can provide solutions for a variety of geographic regions. Our data on social profiles includes information from over 164 countries for analysis.
+ 
+Workers use various terminologies and descriptions to describe themselves. To address this, we employ our own cleaning, mapping, and taxonomies to standardize our social profile data across different countries and markets. This ensures that the data is uniform and coherent across various regions.
+ 
+The social profile data is cleaned, deduplicated, and enriched with our taxonomies before being used. We update the data regularly by collecting, enriching, and deduplicating from premier sources like LinkedIn or Stackoverflow. Social profile data can offer insights into the global talent pool through our software tools, including 
+Global Talent Analyst
+, Spotlight and the 
+Lightcast API's
+.
+ 
+Labor Market Intelligence Data
+Governmental data to help guide analysis
+Lightcast Labor Market Information (LMI) refers to governmental data collected and collated by Lightcast. This data is presented to help customers make informed plans, choices, and analysis founded on governmentally sourced data points.
+ 
+Global Labor Market Intelligence data is generally speaking the number of workers for a given global market per global occupation. For a lot of countries, very high-level demographic data is also available. 
+ 
+Demand data can provide global insight into labor markets around the world through 
+Global Talent Analyst
+, Spotlight and the 
+Lightcast API's
+.
+Related Articles
+Global Postings Data Overview
+Global Worker Profile overview
+Global LMI overview
+Lightcast Occupation Taxonomy (LOT)
+Global Data Release Notes
+Did this answer your question?
+😞
+😐
+😃

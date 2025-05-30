@@ -1,0 +1,44 @@
+---
+Title: Global Worker Profile overview
+Source: https://kb.lightcast.io/en/articles/7170203-global-worker-profile-overview
+Content:
+Global Worker Profile overview | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+All Collections
+Using Global Analyst
+Global Worker Profiles
+Global Worker Profile overview
+Global Worker Profile overview
+ 
+Updated over 2 months ago
+Relevant, cleaned and enriched global work-related social profiles
+Lightcast Global's social profile data comes from a variety of geographic regions. While the number of countries available vary depending on the product, Lightcast overall has profile data on over 164 countries.
+ 
+Workers use various terminologies and descriptions to describe themselves. To address this, we employ our own cleaning, mapping, and taxonomies to standardize our social profile data across different countries and markets. This ensures that the data is uniform and coherent across various regions.
+Profile data is self-reported data. This means anyone can put down whatever they think represents them in the best light possible for future employers. This explains an oversized sample for places like San Francisco or titles such as Chief Executive Officer.
+Global worker profiles are categorized using the 
+Global Occupations.
+ 
+The social profile data is cleaned, deduplicated, and enriched with our taxonomies before being used. We update the data regularly by collecting, enriching, and deduplicating from premier sources like LinkedIn or Stackoverflow. Social profile data can offer insights into the global talent pool through our software tools:
+ 
+From Global Talent Analyst with Profile Analytics:
+ 
+And from the Lightcast 
+Global Profile API
+.
+ 
+Related Articles
+Global Occupation Taxonomy
+Global Data 101
+Global Postings Data Overview
+New Interface & Global Experience for Talent & Staffing Users in 2024
+Global Data Release Notes
+Did this answer your question?
+😞
+😐
+😃

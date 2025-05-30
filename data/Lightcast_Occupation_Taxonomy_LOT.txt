@@ -1,0 +1,90 @@
+---
+Title: Lightcast Occupation Taxonomy (LOT)
+Source: https://kb.lightcast.io/en/articles/7215917-lightcast-occupation-taxonomy-lot
+Content:
+Lightcast Occupation Taxonomy (LOT) | Lightcast Knowledge Base
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Copyright (c) 2023, Intercom, Inc. (legal@intercom.io) with Reserved Font Name "Lato".
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Skip to main content
+Search for articles...
+Table of contents
+Overview
+Hierarchy
+Career Area
+Occupation Group
+Occupation
+Specialized Occupation
+Key benefits:
+Granular
+Specific
+Global
+Responsive
+Availability in Analyst
+All Collections
+Data Methodology
+Taxonomies
+Occupation Taxonomies
+Lightcast Occupation Taxonomy (LOT)
+Lightcast Occupation Taxonomy (LOT)
+Lightcast's bespoke, in-house occupation taxonomy - Granular, specific and global.
+ 
+Updated over a year ago
+Table of contents
+Overview
+Hierarchy
+Career Area
+Occupation Group
+Occupation
+Specialized Occupation
+Key benefits:
+Granular
+Specific
+Global
+Responsive
+Availability in Analyst
+Overview
+Lightcast identifies roles that are the same across employers, geographies, and languages, regardless of job title, and categorized these roles into a large taxonomy.
+ 
+The Lightcast Occupation Taxonomy (LOT) is our proprietary classification system composed of 1,900+ occupation and divided into four distinct levels: Career Areas, Occupation Groups, Occupations, and Specialized Occupations.
+ 
+ 
+Hierarchy
+Career Area
+Career Areas are the broadest occupational category in the Lightcast Occupation Taxonomy. They are designed to be useful in bringing together many occupations, which are similar in terms of the broad disciplines commonly associated with the competent performance of work tasks.
+Occupation Group
+Occupation Groups are clusters of occupations within the taxonomy that share very similar skill or role requirements. They describe the different “fields” or “disciplines” available in the market for early- or pre-career students.
+Occupation
+Lightcast Occupations are working roles within the taxonomy that require a distinct mix of knowledge, skills, and abilities, and are performed using a variety of activities and tasks. Lightcast Occupations are designed to align easily with national taxonomies, undergraduate degree programs, and the career and career aspirations associated with workers entering the workforce or entering a new industry for the first time.
+ 
+Specialized Occupation
+Specialized Occupations are roles grouped at a level of granularity designed to match the expectations of business looking to hire, train and develop workers for the specialized roles in their workforce and for universities looking to track demand for specialized masters and certificate level programs. They are characterized by unique and value-added sets of skills, roles, and responsibilities, as well as additional education or credentials beyond the minimum requirements of the entry-level role they may extend from.
+ 
+ 
+Key benefits:
+Granular
+The Lightcast Occupation Taxonomy provides significantly more granularity than federal or national taxonomies, while maintaining a level of aggregation that allows robust analysis. Users can create meaningful career ladders using Specialized Occupations, showing the skills and credentials required for each.
+​
+Specific
+The Specialized Occupations identify roles that are the same across employers, geographies, and languages, regardless of job title. Job titles can cross occupations (as employers cast a wide net while advertising positions) so the Lightcast Occupation Taxonomy serves to close this language gap.
+​
+Global
+With a single taxonomy applied globally to postings, profiles, and in relationship with Governmental Labor Market data, you can make truly global comparisons to understand the changing nature of the labor market without relying on a “lowest common denominator” from local taxonomies. 
+​
+Responsive
+The Lightcast Occupation Taxonomy is updated annually — infrequent enough to make it stable and useful for comparisons over time, but frequent enough to capture new, emerging roles as they formalize in the economy.
+ 
+ 
+Availability in Analyst
+The Lightcast Occupation Taxonomy is an available search filter on job postings, online profiles, and other models throughout the Analyst platform for our national datasets (United States, United Kingdom, Canada) and our international dataset (comprised of many more countries).
+Related Articles
+Lightcast Skills Taxonomy
+Lightcast Occupations Taxonomy (LOT) Classification Methodology
+Lightcast Occupation Taxonomy
+US O*NET-SOC Occupation taxonomy (O*NET)
+Lightcast Occupation Taxonomy - Update
+Did this answer your question?
+😞
+😐
+😃
